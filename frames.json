@@ -75,7 +75,7 @@
     },
     "data_type": "frame",
     "aptitude": {},
-    "image_url": "https://i.imgur.com/DQHJ8Sq.png"
+    "image_url": "https://compcon-image-assets.s3.amazonaws.com/frames/whitewitch.png"
   },
   {
     "id": "mf_emperor",
@@ -147,7 +147,7 @@
     },
     "data_type": "frame",
     "aptitude": {},
-    "image_url": "https://i.imgur.com/BGu6Vg6.png"
+    "image_url": "https://compcon-image-assets.s3.amazonaws.com/frames/emperor.png"
   },
   {
     "id": "mf_black_witch_alt_orchidea",
@@ -220,7 +220,7 @@
     },
     "data_type": "frame",
     "aptitude": {},
-    "image_url": "https://i.imgur.com/4Os1ZCY.png"
+    "image_url": "https://compcon-image-assets.s3.amazonaws.com/frames/orchis.png"
   },
   {
     "id": "mf_minotaur_alt_wraith",
@@ -305,6 +305,6 @@
     },
     "data_type": "frame",
     "aptitude": {},
-    "image_url": "https://i.imgur.com/4Os1ZCY.png"
+    "image_url": "https://compcon-image-assets.s3.amazonaws.com/frames/calendula.png"
   }
 ]
