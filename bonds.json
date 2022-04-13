@@ -114,7 +114,7 @@
         "My own flesh and sinews.",
         "A hereditary blade.",
         "A carefully curated arsenal.",
-        "A carefully curated arsenal.",
+        "A thick and heavy shield.",
         "A battered old rifle."
       ]
     }],
@@ -186,7 +186,8 @@
     }, {
       "question": "Where have you traveled in your dreams?",
       "options": [
-        "The edge of the world; deep into the molten core of a supernova.",
+        "The edge of the world",
+        "deep into the molten core of a supernova.",
         "A still, black pool in the deep forest.",
         "An endless expanse of desert."
       ]
@@ -290,7 +291,7 @@
     }, {
       "name": "Rigger",
       "frequency": "2/session",
-      "description": "You can create an improvised tool or device. Name its intended purpose and what you built it from (you always have the parts on your person). It provides +1 Accuracy on any skill checks for that purpose, but the first time you use it, roll a d6 and check for the following effects:<ol><li>It explodes immediately unless you take 1 Stress.</li><li>It melts something nearby into slag with a loose bolt of energy unless you take 1 Stress.</li><li>It makes a loud noise straight away and every time it is used.</li><li>It seems to have a mind of its own and sometimes activates without you.</li><li>For the rest of the session, you have to remain perfectly still to use it.</li>< li > For the rest of the session, you have to feed it extra parts, raw material, or input from your gear or the environmentif you want to use it.</li></ol> This item stops working at the end of the session. "
+      "description": "You can create an improvised tool or device. Name its intended purpose and what you built it from (you always have the parts on your person). It provides +1 Accuracy on any skill checks for that purpose, but the first time you use it, roll a d6 and check for the following effects:<ol><li>It explodes immediately unless you take 1 Stress.</li><li>It melts something nearby into slag with a loose bolt of energy unless you take 1 Stress.</li><li>It makes a loud noise straight away and every time it is used.</li><li>It seems to have a mind of its own and sometimes activates without you.</li><li>For the rest of the session, you have to remain perfectly still to use it.</li><li>For the rest of the session, you have to feed it extra parts, raw material, or input from your gear or the environment if you want to use it.</li></ol> This item stops working at the end of the session. "
     }, {
       "name": "Comfort",
       "frequency": "1/session",

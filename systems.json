@@ -182,7 +182,7 @@
     "license_level": 3,
     "actions": [{
       "activation": "Quick",
-      "detail": "You create a Blast 2 energy field in a space within Range and line of sight The first time each turn any hostile character in this area is hit by a ranged or melee attack, they release a discharge of energy and all hostile characters at least partly in the area – including the original character – take 2 AP energy damage. This effect lasts for the rest of the scene or until you take this action again."
+      "detail": "You create a Blast 2 energy field in a space within Range and line of sight. The first time each turn any hostile character in this area is hit by a ranged or melee attack, they release a discharge of energy and all hostile characters at least partly in the area – including the original character – take 2 AP energy damage. This effect lasts for the rest of the scene or until you take this action again."
     }],
     "description": "“So where are you going? Is your travel not just a reminder to the heavens? Go where thou wilt.”<br>— Witnessed from the Darius 4.8 ferromemetic",
     "data_type": "system",

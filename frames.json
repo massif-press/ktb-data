@@ -285,7 +285,7 @@
     ],
     "core_system": {
       "name": "Execration of the Names of the Unworthy Dead",
-      "description": "&ldquo;I inscribe thy name, I threaten thee with the second death. I likk thy name, and this I kill thee again in the afterlife.&ldquo;",
+      "description": "&ldquo;I inscribe thy name, I threaten thee with the second death. I kill thy name, and this I kill thee again in the afterlife.&ldquo;",
       "active_name": "Weighing of Inequitable Hearts",
       "active_effect": "One hostile character and one allied character both within Range 5 and line of sight to you or a void husk, become INTANGIBLE until the end of your next turn. Two characters must be chosen for this effect to occur. This ability is <b>Efficient</b> and will refund 1 Core Point at the end of any scene in which this ability was used.",
       "activation": "Quick",
