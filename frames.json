@@ -140,7 +140,7 @@
       "name": "Darian Regalia",
       "description": "&ldquo;Directed Subjective Convergence Weapon, Pattern 3. Or as Visual calls it, the 'Marathon Arc'. I suppose it is a better name. Imposing. Inaccurate, but Visual has never been accurate. The Arc forces realignment along a superpositional plane, destabilizing targets without the correct pineal hash while imparting sympathetic lensing on those with the correct hash; a simple 'weapon' that emulates an Overmind's corrective/imperative push.&ldquo;",
       "active_name": "Xerxes Apex",
-      "active_effect": "For the rest of this scene, any mech targeted by an attack using the Marathon Arc Bow releases a bolt of lightning after the attack resolves, striking a character of your choice within RANGE 3, which can be athe character it originated from. This lightning bolt either deals 2 AP damage (no attack or save) or increases the target’s OVERSHIELD by +2. The same character can be struck by multiple bolts.",
+      "active_effect": "For the rest of this scene, any mech targeted by an attack using the Marathon Arc Bow releases a bolt of lightning after the attack resolves, striking a character of your choice within RANGE 3, which can be the character it originated from. This lightning bolt either deals 2 AP damage (no attack or save) or increases the target’s OVERSHIELD by +2. The same character can be struck by multiple bolts.",
       "activation": "Protocol",
       "use": "Encounter",
       "integrated": ["mw_emperor_integrated"]
