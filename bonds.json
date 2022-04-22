@@ -75,7 +75,7 @@
       },
       {
         "name": "Boon of Chaos",
-        "prerequisite": "If you have two or more powers from this bond, you can choose a power from any other bond instead of one from this bond. You can do this twice. If you have at least one veteran power, gain the Boon of Chaos.",
+        "prerequisite": "If you have two or more powers from this bond, you can choose a power from any other bond instead of one from this bond when you would gain a power. You can do this twice. If you have at least one veteran power, gain the Boon of Chaos.",
         "description": "At the end of the session, if there was a particularly funny or chaotic moment or scene, describe it. Give someone who was part of the fun or chaos 1 XP.",
         "veteran": true
       },
@@ -152,7 +152,7 @@
       "description": "You can call on your inner reserves of willpower to act with incredible athleticism, speed, or strength. For the rest of the scene, you can’t roll less than a 10 on any checks involving physical activity (e.g., running, jumping, climbing, hand-to-hand combat, etc). Treat any roll of 9 or lower as if you rolled a 10."
     }, {
       "name": "Boon of Iron",
-      "prerequisite": "If you have two or more powers from this bond, you can choose a power from any other bond instead of one from this bond. You can do this twice. If you have at least one veteran power, gain the Boon of Iron.",
+      "prerequisite": "If you have two or more powers from this bond, you can choose a power from any other bond instead of one from this bond when you would gain a power. You can do this twice. If you have at least one veteran power, gain the Boon of Iron.",
       "description": "At the end of the session, if anyone (yourself included) performed an extraordinary or inspiring feat of athleticism, acrobatics, or physical force, describe it. Give someone who witnessed or participated in it 1 XP.",
       "veteran": true
     }, {
@@ -226,7 +226,7 @@
       "description": "You can ask the GM up to three of the following about any location you arrive at and receive truthful answers:<ul><li>Who lives here or has passed through recently, and where can I find them ?</li><li>Who owns this place, or wants to, and where can I talk to them ?</li><li>What part of this place do people avoid, and why ?</li></ul>Gain + 1 Accuracy and increased effect on your next check acting on the answers.If you ask only one question, heal 1 Stress."
     }, {
       "name": "Boon of the Traveler",
-      "prerequisite": "If you have two or more powers from this bond, you can choose a power from any other bond instead of one from this bond. You can do this twice. If you have at least one veteran power, gain the Boon of the Traveler.",
+      "prerequisite": "If you have two or more powers from this bond, you can choose a power from any other bond instead of one from this bond when you would gain a power. You can do this twice. If you have at least one veteran power, gain the Boon of the Traveler.",
       "description": "At the end of each session, if you were inspired by the sights, smells, sounds, or sensations of a particular place, describe them. Give someone you shared them with 1 XP.",
       "veteran": true
     }, {
@@ -305,7 +305,7 @@
       "description": "When you wish to fix something broken (a relationship, an object, an alliance), name your approach. You can do it, but the GM chooses one or two things you’ll need:<ul><li>To bring the disparate parts together in one place.</li><li>To gather specific materials or find more time</li><li>To find out what’s missing.</li><li>To be comfortable with not fully fixing it.</li></ul>When you have what you need, you can perform a downtime action and play a scene out to fix it. When it’s fixed, gain 1 XP."
     }, {
       "name": "Boon of the Forge",
-      "prerequisite": "If you have two or more powers from this bond, you can choose a power from any other bond instead of one from this bond. You can do this twice. If you have at least one veteran power, gain the Boon of the Forge.",
+      "prerequisite": "If you have two or more powers from this bond, you can choose a power from any other bond instead of one from this bond when you would gain a power. You can do this twice. If you have at least one veteran power, gain the Boon of the Forge.",
       "description": "At the end of each session, if you completed a project, show it off to everyone. Give someone who admires it 1 XP.",
       "veteran": true
     }, {
@@ -382,7 +382,7 @@
       "description": "Choose someone present. If you stare straight at them you can ask “what does this person fear right now?” of the GM (if they’re an NPC) or their player (if they’re a PC) and receive an honest answer. You get +1 Accuracy on your next skill check acting on the answer. If a PC answers, they may clear 1 Stress."
     }, {
       "name": "Boon of Revelation",
-      "prerequisite": "If you have two or more powers from this bond, you can choose a power from any other bond instead of one from this bond. You can do this twice. If you have at least one veteran power, gain the Boon of Revelation.",
+      "prerequisite": "If you have two or more powers from this bond, you can choose a power from any other bond instead of one from this bond when you would gain a power. You can do this twice. If you have at least one veteran power, gain the Boon of Revelation.",
       "description": "At the end of the session, if you found a scene troubling, exciting, or terrifying, describe why. Give someone who felt similarly 1 XP.",
       "veteran": true
     }, {
@@ -456,7 +456,7 @@
       "description": "Gain +1 Accuracy on all actions in a scene where you are clearly outnumbered, outgunned, or backed into a corner."
     }, {
       "name": "Boon of the Fang",
-      "prerequisite": "If you have two or more powers from this bond, you can choose a power from any other bond instead of one from this bond. You can do this twice. If you have at least one veteran power, gain the Boon of the Fang.",
+      "prerequisite": "If you have two or more powers from this bond, you can choose a power from any other bond instead of one from this bond when you would gain a power. You can do this twice. If you have at least one veteran power, gain the Boon of the Fang.",
       "description": "At the end of the session, if you think the party fought their way out of a bad situation, describe it, and give someone who you thought fought as hard as you 1 XP.",
       "veteran": true
     }, {
@@ -536,7 +536,7 @@
       "description": "At the start of any session, choose another character to be your mentor (whether they are willing or unwilling is up to them). Twice in that session, you may ask them for advice before making a skill check. If you follow their advice, gain +1 Accuracy on that check. If they spurn your request or give you obviously harmful advice, take +1 Accuracy on a check for actions that ignore them."
     }, {
       "name": "Boon of the Star",
-      "prerequisite": "If you have two or more powers from this bond, you can choose a power from any other bond instead of one from this bond. You can do this twice. If you have at least one veteran power, gain the Boon of the Star.",
+      "prerequisite": "If you have two or more powers from this bond, you can choose a power from any other bond instead of one from this bond when you would gain a power. You can do this twice. If you have at least one veteran power, gain the Boon of the Star.",
       "description": "If you or anyone else succeeded on at least one Heroic skill check, describe what happened. Give someone else who witnessed it 1 XP.",
       "veteran": true
     }, {
@@ -610,7 +610,7 @@
       "description": "When you need something done without involving yourself or your group, you can call one of your many contacts. Pick up to three of the following words to describe how they get it done for you: <b>quiet, clean, quick</b>. For each word you pick, the GM chooses one thing you will need to get your contact, or else owe them after the job is done:<ul><li>collateral</li><li>proof, payment, or assurances</li><li>extraction</li></ul>For each word you don’ t pick, they don’ t do it that way at all;however, they will always get the job done. The scale of what they need is concurrent with the scale of the request you make of them, which might make the request impossible unless you rephrase it."
     }, {
       "name": "Boon of Order",
-      "prerequisite": "If you have two or more powers from this bond, you can choose a power from any other bond instead of one from this bond. You can do this twice. If you have at least one veteran power, gain the Boon of Order.",
+      "prerequisite": "If you have two or more powers from this bond, you can choose a power from any other bond instead of one from this bond when you would gain a power. You can do this twice. If you have at least one veteran power, gain the Boon of Order.",
       "description": "At the end of each session, if you can describe how everything went to plan, do so. Give someone you think followed the plan 1 XP.",
       "veteran": true
     }, {

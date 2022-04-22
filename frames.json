@@ -34,14 +34,14 @@
       },
       {
         "name": "Harden",
-        "description": "When this mech braces, it gains Overshield 5 before taking damage.",
+        "description": "White Witch braces, it gains overshield equal to 4 + GRIT before it takes damage.",
         "synergies": [{
           "locations": ["brace"],
-          "detail": "When this mech braces, it gains Overshield 5 before taking damage."
+          "detail": "White Witch braces, it gains overshield equal to 4 + GRIT before it takes damage."
         }]
       }, {
         "name": "Fluid Burst",
-        "description": "When an allied character in Range 2 of this mech takes damage, it can reduce the damage by 1 and deal 1 AP kinetic damage to itself."
+        "description": "When an allied character in Range 2 of the White Witch takes damage from a hostile source, the White Witch can reduce the damage by 1 and deal 1 AP kinetic damage to itself."
       },
       {
         "name": "Guardian",
@@ -262,6 +262,7 @@
         "deployables": [{
           "name": "Void Husk",
           "type": "Void Husk",
+          "activation": "Free",
           "instances": 1,
           "evasion": "",
           "edef": "",
