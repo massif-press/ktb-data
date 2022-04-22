@@ -18,7 +18,7 @@
     "id": "ms_sympathetic_shield",
     "name": "SYMPATHETIC SHIELD",
     "type": "Shield",
-    "sp": 2,
+    "sp": 1,
     "tags": [{
         "id": "tg_overshield"
       },
@@ -35,7 +35,7 @@
     "license_level": 2,
     "actions": [{
       "activation": "Quick",
-      "detail": "You project a shield of resonant ferrofluid over an allied character within Range 5. They gain Overshield equal to half their maximum HP, but any damage dealt to this Overshield before reductions of any kind also deals equivalent kinetic damage to you as if the attacker had also damaged you, no matter how far away you are. This damage does not inherit tags or effects."
+      "detail": "You project a shield of resonant ferrofluid over an allied character within Range 5. They gain Overshield equal to 4 + GRIT, but any damage dealt to this Overshield before reductions of any kind also deals equivalent kinetic damage to you as if the attacker had also damaged you, no matter how far away you are. This damage does not inherit tags or effects."
     }],
     "description": "“Soon enough we realized that shaping weapons from molecules and particles wasn’t enough to justify the conical mag as a system worth platforming. We needed to find a way to make it … more. More visual, tactile, concrete, imposing, thrilling – we needed to sell the next step in realspace control! So with some tuning and, regrettably, input from Visual, we figured out how to define the White Witch: as the most terrifying, alien thing you’ve ever fucking seen.”",
     "data_type": "system",
@@ -59,7 +59,7 @@
     "actions": [{
       "name": "Prime Camus's Razor",
       "activation": "Quick",
-      "detail": "Your mech is capable of projecting a spot-magnetic force of incredible power. You can prime this system as a quick action. Once primed, you gain the Intervention reaction for the rest of the scene."
+      "detail": "Your mech is capable of projecting a spot-magnetic force of incredible power. You can prime this system as a quick action. Once primed, you gain one use of the Intervention reaction for the rest of the scene."
     }, {
       "name": "Intervention",
       "activation": "Reaction",
@@ -88,7 +88,7 @@
       "size": 2,
       "hp": 20,
       "evasion": 5,
-      "detail": "You spray a Size 2 surge of liquid metal in a free adjacent space, where it rapidly hardens into wicked spines. It doesn’t provide obstruction initially, but at the beginning of your next turn, it becomes a solid object (20 HP) that can be used for hard cover. The first time in a round any character would move into its space, that character takes 1d6 AP kinetic damage. You can only have one barrier deployed at a time; if a new one is deployed, the first one dissolves."
+      "detail": "You spray a Size 2 surge of liquid metal in a free adjacent space, where it rapidly hardens into wicked spines. It doesn’t provide obstruction initially, but at the beginning of your next turn, it becomes a solid object (20 HP) that can be used for hard cover. The first time in a round any character would move into its space after the barrier hardens, that character takes 1d6 AP kinetic damage. You can only have one barrier deployed at a time; if a new one is deployed, the first one dissolves."
     }],
     "description": "“Again and again the meatheads over at Visual asked us to ‘help them sell’ the platform. What else could we do? We handed them a power that gods of death and war had coveted since Cain cracked a rock over Abel’s head, and they told us, ‘if we can’t see it, we can’t sell it.’ So we mucked around and made another diadematic little wonder for them, the F-Barrier. It’s brilliant. Of course it is. We’re Exotic Materials, brilliance is easy.”",
     "data_type": "system",
@@ -164,7 +164,7 @@
     "license_level": 2,
     "actions": [{
       "activation": "Quick Tech",
-      "detail": "An allied mech character within Sensors and line of sight gains Overshield equal to half their maximum HP. While they have this Overshield, they have Resistance to heat inflicted by other characters. If they lose this Overshield for any reason, they clear all heat."
+      "detail": "An allied mech character within Sensors and line of sight gains Overshield equal to 4 + GRIT. While they have this Overshield, they have Resistance to heat inflicted by other characters. If they lose this Overshield for any reason, they clear all heat."
     }],
     "description": "“Be recorded in my book of Kings; live into forever and beyond.”<br>— translated gestalt from the Cyrus Omega ferromemetic, no pre-contact text associated; likely a subject-original imperative/corrective impulse.",
     "data_type": "system",
@@ -211,7 +211,7 @@
     "license_level": 3,
     "actions": [{
       "activation": "Quick Tech",
-      "detail": "An allied character within Sensors and line of sight gains Overshield equal to half their maximum HP. While they have this Overshield, all their melee attacks gain AP, and the first time each turn that they either hit with a melee attack or take damage from a hostile character, they release a Burst 1 energy blast centered on them. All hostile characters in the affected area take 1 AP energy damage."
+      "detail": "An allied character within Sensors and line of sight gains Overshield equal to 4 + GRIT. While they have this Overshield, all their melee attacks gain AP, and the first time each turn that they either hit with a melee attack or take damage from a hostile character, they release a Burst 1 energy blast centered on them. All hostile characters in the affected area take 1 AP energy damage."
     }],
     "description": "“AND IT WAS SO, that we saw His power, and burned under His glory, and wept, and no fortress could withstand our might.”<br>— Witnessed from the Darius 5.10 ferromemetic",
     "data_type": "system",
