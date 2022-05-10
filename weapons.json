@@ -1,6 +1,6 @@
 [{
     "id": "mw_ferrofluid_lance",
-    "name": "FERROFLUID LANCE",
+    "name": "Ferrofluid Lance",
     "mount": "Main",
     "type": "Melee",
     "damage": [{
@@ -31,7 +31,7 @@
   },
   {
     "id": "mw_retort_loop",
-    "name": "RETORT LOOP",
+    "name": "Retort Loop",
     "mount": "Heavy",
     "type": "Cannon",
     "profiles": [{
@@ -122,7 +122,7 @@
   },
   {
     "id": "mw_bolt_nexus",
-    "name": "BOLT NEXUS",
+    "name": "Bolt Nexus",
     "mount": "Main",
     "type": "Nexus",
     "tags": [{

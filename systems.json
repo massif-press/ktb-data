@@ -1,6 +1,6 @@
 [{
     "id": "ms_pinning_spire",
-    "name": "PINNING SPIRE",
+    "name": "Pinning Spire",
     "type": "System",
     "sp": 1,
     "source": "SSC",
@@ -16,7 +16,7 @@
   },
   {
     "id": "ms_sympathetic_shield",
-    "name": "SYMPATHETIC SHIELD",
+    "name": "Sympathetic Shield",
     "type": "Shield",
     "sp": 1,
     "tags": [{
@@ -43,7 +43,7 @@
   },
   {
     "id": "ms_camuss_razor",
-    "name": "CAMUS’S RAZOR",
+    "name": "Camus’s Razor",
     "type": "Shield",
     "sp": 2,
     "tags": [{
@@ -74,7 +74,7 @@
   },
   {
     "id": "ms_ferrospike_barrier",
-    "name": "FERROSPIKE BARRIER",
+    "name": "Ferrospike Barrier",
     "type": "Deployable",
     "sp": 3,
     "source": "SSC",
@@ -96,7 +96,7 @@
   },
   {
     "id": "ms_dominions_breadth",
-    "name": "DOMINION'S BREADTH",
+    "name": "Dominion's Breadth",
     "type": "Tech",
     "sp": 2,
     "tags": [{
@@ -124,7 +124,7 @@
     "aptitude": {}
   }, {
     "id": "ms_the_imperial_eye",
-    "name": "THE IMPERIAL EYE",
+    "name": "The Imperial Eye",
     "type": "Tech",
     "sp": 2,
     "tags": [{
@@ -142,7 +142,7 @@
     "aptitude": {}
   }, {
     "id": "ms_shahnameh",
-    "name": "SHAHNAMEH",
+    "name": "Shahnameh",
     "type": "Tech",
     "sp": 3,
     "tags": [{
@@ -189,7 +189,7 @@
     "aptitude": {}
   }, {
     "id": "ms_the_walk_of_kings",
-    "name": "THE WALK OF KINGS",
+    "name": "The Walk of Kings",
     "type": "Tech",
     "sp": 3,
     "tags": [{
