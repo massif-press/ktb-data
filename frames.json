@@ -34,10 +34,10 @@
       },
       {
         "name": "Harden",
-        "description": "White Witch braces, it gains overshield equal to 4 + GRIT before it takes damage.",
+        "description": "When the White Witch braces, it gains overshield equal to 4 + GRIT before it takes damage.",
         "synergies": [{
           "locations": ["brace"],
-          "detail": "White Witch braces, it gains overshield equal to 4 + GRIT before it takes damage."
+          "detail": "When the White Witch braces, it gains overshield equal to 4 + GRIT before it takes damage."
         }]
       }, {
         "name": "Fluid Burst",
