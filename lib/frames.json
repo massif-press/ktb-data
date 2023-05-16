@@ -2,12 +2,17 @@
   {
     "id": "mf_white_witch",
     "source": "SSC",
-    "name": "WHITE WITCH",
-    "mechtype": ["Defender"],
+    "name": "White Witch",
+    "mechtype": [
+      "Defender"
+    ],
     "y_pos": 28,
     "license_level": 2,
     "description": "<p>A proof of concept more than a line-production chassis, there have been select releases of White Witch licenses by Smith-Shimano&rsquo;s LUX-Exotic group to elite military enclaves, most notably to the upper cadres of the House of Moments.</p> <p>The White Witch builds on the platform established by the Black Witch; utilizing SSC&rsquo;s signature magtech weapons and equipment, it takes Black Witch and tunes it for hypersolipsistic focus, narrowing the effect cone to encompass only the White Witch and its pilot.</p> <p>The White Witch marks SSC&rsquo;s first foray into null-ordnance/environmental-manipulation chassis. When active, its entire chassis becomes a conduit for onboard base-compound magtech agitators to exploit its immediate environment, drawing atomic components out of organic and inorganic objects and surfaces to enhance its built-in defensive systems. The White Witch reorganizes these molecular draws using its chassis as substrate, quickly forming substantive defenses and weapons from &ldquo;thin air&rdquo;.</p> <p>This process has understandably traumatic effects on organic and inorganic materials inside the immediate effect cone.&nbsp;</p>",
-    "mounts": ["Flex", "Heavy"],
+    "mounts": [
+      "Flex",
+      "Heavy"
+    ],
     "stats": {
       "size": 2,
       "stress": 4,
@@ -34,7 +39,9 @@
         "description": "When the White Witch braces, it gains overshield equal to 4 + GRIT before it takes damage.",
         "synergies": [
           {
-            "locations": ["brace"],
+            "locations": [
+              "brace"
+            ],
             "detail": "When the White Witch braces, it gains overshield equal to 4 + GRIT before it takes damage."
           }
         ]
@@ -55,7 +62,9 @@
       "active_effect": "For the rest of the scene, Ferroreactive Armor gives +2 Armor each time instead of +1, to a max of +12. Each time your armor increases in this way, your mech deals 1 AP kinetic damage to all characters in a Burst 1 area as it draws raw material from the environment. If your benefit from Ferroreactive Armor would increase past +12, it explodes instead, dealing 1 AP kinetic damage in a Burst 2 area around you. All characters within the affected area must succeed on a HULL save or be knocked PRONE, then IMMOBILIZED and SHREDDED until the end of their next turns. The benefit from Ferroreactive Armor resets to 0, although it continues to be active and this effect can occur multiple times in a scene.",
       "active_synergies": [
         {
-          "locations": ["armor"],
+          "locations": [
+            "armor"
+          ],
           "detail": "For the rest of the scene, Ferroreactive Armor gives +2 Armor each time instead of +1, to a max of +12. Each time your armor increases in this way, your mech deals 1 AP kinetic damage to all characters in a Burst 1 area as it draws raw material from the environment. If your benefit from Ferroreactive Armor would increase past +12, it explodes instead, dealing 1 AP kinetic damage in a Burst 2 area around you. All characters within the affected area must succeed on a HULL save or be knocked PRONE, then IMMOBILIZED and SHREDDED until the end of their next turns. The benefit from Ferroreactive Armor resets to 0, although it continues to be active and this effect can occur multiple times in a scene."
         }
       ],
@@ -65,7 +74,9 @@
       "passive_effect": "Each time you take damage from yourself or a hostile source (even if that damage is reduced or ignored), gain +1 ARMOR for the rest of this scene after taking damage, up to a maximum of +6.",
       "passive_synergies": [
         {
-          "locations": ["armor"],
+          "locations": [
+            "armor"
+          ],
           "detail": "Each time you take damage from yourself or a hostile source (even if that damage is reduced or ignored), gain +1 ARMOR for the rest of this scene after taking damage, up to a maximum of +6."
         }
       ],
@@ -87,12 +98,17 @@
   {
     "id": "mf_emperor",
     "source": "SSC",
-    "name": "EMPEROR",
-    "mechtype": ["Support", "Artillery"],
+    "name": "Emperor",
+    "mechtype": [
+      "Support",
+      "Artillery"
+    ],
     "y_pos": 21,
     "license_level": 2,
     "description": "<p>&ldquo;In Exotic Materials we don&rsquo;t have problems: we have doors that are not yet open to us. A &lsquo;problem&rsquo; presents endless branching paths. Doors are binary. Open and shut. &lsquo;The tyranny of the problem lies in the impossible breadth of possibility.&rsquo; Smith said that. He went on to say that this is a useless framing for tinkerers and hobbyists whose ethics are defined by calcified, hand-wringing institutions. So! EXMAT is solutions-focused: there is no such thing as a problem, only a door, and the question: can we open it, or do we have to bash it down?</p> <p>Progress. Smith Shimano has always been about progress. Humanity has always been about progress. In service of progress, one must accept the necessity of teleological suspension.</p> <p>For the Emperor, after Hercynia, we had to bash the door down. Ugly process, but the riches beyond the door were more than worth it. Syncretic subjectivities, induced gestalt manifestation, H-NHP ontologic bridging, superpositional defensive lensing &ndash; look at what the battering ram gave us and tell me you&rsquo;d rather puzzle out a problem then bash down the door and grab all the gold.</p> <p>What else is there to say? Long live the Emperor, for in its creation did we find the method by which to fling open every locked door. Wondrous things are coming. I&rsquo;m glad that they&rsquo;ll be under our control.&rdquo;</p> <p>&ndash; Memo to personal records, Bala Shimano, CEO-1, Exotic Materials Group</p>",
-    "mounts": ["Main"],
+    "mounts": [
+      "Main"
+    ],
     "stats": {
       "size": 1,
       "stress": 4,
@@ -121,7 +137,9 @@
         ],
         "synergies": [
           {
-            "locations": ["overshield"],
+            "locations": [
+              "overshield"
+            ],
             "detail": "The Emperor’s HP is not increased by its pilots GRIT. Instead, at the start of any scene, the Emperor gains OVERSHIELD equal to 6+GRIT. This OVERSHIELD refreshes any time the Emperor takes structure damage"
           }
         ]
@@ -131,7 +149,9 @@
         "description": "Whenever the Emperor grants OVERSHIELD to another character, it gains the same amount of OVERSHIELD. If the Emperor gains OVERSHIELD from any source, including this trait, it increases its current OVERSHIELD by that amount instead of replacing it. Its OVERSHIELD cannot exceed the amount granted by Storm Shield.",
         "synergies": [
           {
-            "locations": ["overshield"],
+            "locations": [
+              "overshield"
+            ],
             "detail": "Whenever the Emperor grants OVERSHIELD to another character, it gains the same amount of OVERSHIELD. If the Emperor gains OVERSHIELD from any source, including this trait, it increases its current OVERSHIELD by that amount instead of replacing it. Its OVERSHIELD cannot exceed the amount granted by Storm Shield."
           }
         ]
@@ -141,7 +161,10 @@
         "description": "1/round, when the Emperor targets a character with an attack, it can condemn that character, forcing them to make an ENGINEERING save. On a failure, the target takes +1 damage any time they take damage until the start of the Emperor’s next turn.",
         "synergies": [
           {
-            "locations": ["weapon", "active_effects"],
+            "locations": [
+              "weapon",
+              "active_effects"
+            ],
             "detail": "1/round, when the Emperor targets a character with an attack, it can condemn that character, forcing them to make an ENGINEERING save. On a failure, the target takes +1 damage any time they take damage until the start of the Emperor’s next turn."
           }
         ]
@@ -154,7 +177,9 @@
       "active_effect": "For the rest of this scene, any mech targeted by an attack using the Marathon Arc Bow releases a bolt of lightning after the attack resolves, striking a character of your choice within RANGE 3, which can be the character it originated from. This lightning bolt either deals 2 AP damage (no attack or save) or increases the target’s OVERSHIELD by +2. The same character can be struck by multiple bolts.",
       "activation": "Protocol",
       "use": "Encounter",
-      "integrated": ["mw_emperor_integrated"]
+      "integrated": [
+        "mw_emperor_integrated"
+      ]
     },
     "data_type": "frame",
     "aptitude": {},
@@ -165,12 +190,17 @@
     "id": "mf_black_witch_alt_orchidea",
     "source": "SSC",
     "variant": "BLACK WITCH",
-    "name": "ORCHIS",
-    "mechtype": ["Controller", "Defender"],
+    "name": "Orchis",
+    "mechtype": [
+      "Controller",
+      "Defender"
+    ],
     "y_pos": 25,
     "license_level": 2,
     "description": "The Orchis is the spear and shield of the house companies and makes up the bulk of the fighting forces in Baronic space. Its ubiquity does not bely its reliability and durability, nor its iconic status as the line mech of the baronies. Due to a trade negotiation with Smith-Shimano corpro, the Orchis is compatible with the Black Witch licensing scheme and can appropriate the majority of its gear and weaponry. Utilizing ancient and sturdy mag-lock technology, the Orchis wields a heavy Scuta shield, reinforced to deflect incoming fire. This shield can be locked in place and braced against another shield of its own kind, creating a tessellated wall of impenetrable strength. The half-mile long shield walls of the throne guard, blazoned with their house emblems, are an iconic and terrifying sight in Baronic history. The kuirassers of the Baronies decorate their Orchii with house heraldry, war banners, and trophies of past conflicts, each one the avatar resplendent with the regalia of a decorated warrior.",
-    "mounts": ["Main/Aux"],
+    "mounts": [
+      "Main/Aux"
+    ],
     "stats": {
       "size": 1,
       "stress": 4,
@@ -193,7 +223,9 @@
         "description": "The Orchis and all adjacent allied characters have IMMUNITY to all damage and effects from missed attacks.",
         "synergies": [
           {
-            "locations": ["active_effects"],
+            "locations": [
+              "active_effects"
+            ],
             "detail": "The Orchis and all adjacent allied characters have IMMUNITY to all damage and effects from missed attacks."
           }
         ]
@@ -240,12 +272,16 @@
     "id": "mf_minotaur_alt_wraith",
     "source": "HORUS",
     "variant": "MINOTAUR",
-    "name": "CALENDULA",
-    "mechtype": ["Controller"],
+    "name": "Calendula",
+    "mechtype": [
+      "Controller"
+    ],
     "y_pos": 25,
     "license_level": 2,
     "description": "A signature of the Order Xenoglossia’s Stygos Grammaton, the Royal Karrakin Foundries Calendula is derived from the Minotaur pattern group first released by HORUS. Oddly, it is unclear from temporal markers whether the codebase used to create the Calendula was created separately, before contact with Union, despite being nearly identical to the Minotaur codebase.<br>The Calendula uses the internal spatial manipulation abilities of the Minotaur and inverts them, allowing experienced pilots of the mech to cut into a ‘non-space’ widely regarded by Union theorists to be the Aunic Firmament. In this grey and bleak interstitial zone, matter appears as a flowing fog, and is just as easily parted.",
-    "mounts": ["Main/Aux"],
+    "mounts": [
+      "Main/Aux"
+    ],
     "stats": {
       "size": 1,
       "stress": 4,
@@ -268,7 +304,9 @@
         "description": "1/round, when the Calendula hits a character with a tech attack, it can create a void husk in a free space within RANGE 3 of its target. Void husks are INTANGIBLE objects that don’t cause obstruction. The husk is the same SIZE as its target, has IMMUNITY to all damage and effects, and emits a BURST 2 aura while active that affects both Intangible and tangible characters. Hostile characters are SLOWED while they are at least partly in the area. The Calendula can create any number of husks, all of which disintegrate at the end of the scene.",
         "synergies": [
           {
-            "locations": ["tech_attack"],
+            "locations": [
+              "tech_attack"
+            ],
             "detail": "1/round, when the Calendula hits a character with a tech attack, it can create a void husk in a free space within RANGE 3 of its target. Void husks are INTANGIBLE objects that don’t cause obstruction. The husk is the same SIZE as its target, has IMMUNITY to all damage and effects, and emits a BURST 2 aura while active that affects both Intangible and tangible characters. Hostile characters are SLOWED while they are at least partly in the area. The Calendula can create any number of husks, all of which disintegrate at the end of the scene."
           }
         ],
