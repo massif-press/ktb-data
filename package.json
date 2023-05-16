@@ -1,5 +1,5 @@
 {
-  "name": "@massif/wallflower-data",
+  "name": "@massif/ktb-data",
   "version": "1.2.0",
   "description": "Player-facing COMP/CON data for the 'Karrakin Trade Baronies', a setting for the LANCER TTRPG",
   "main": "index.js",
