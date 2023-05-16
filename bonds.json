@@ -98,13 +98,14 @@
     ],
     "minor_ideals": [
       "I protected someone weaker than myself.",
+      "I led from the front.",
       "I won a competition, friendly or otherwise.",
       "I took harm, blame, penance, or burden for someone else."
     ],
     "questions": [{
       "question": "What gives you your powers?",
       "options": [
-        "A voice and heart of iron, passed down from your mentor",
+        "A voice and heart of iron, passed down from your mentor.",
         "Cybernetic augmentation, laced through your limbs.",
         "Years of training, sweat, blood, and discipline."
       ]
@@ -186,8 +187,8 @@
     }, {
       "question": "Where have you traveled in your dreams?",
       "options": [
-        "The edge of the world",
-        "deep into the molten core of a supernova.",
+        "The edge of the world.",
+        "Deep into the molten core of a supernova.",
         "A still, black pool in the deep forest.",
         "An endless expanse of desert."
       ]
@@ -333,8 +334,8 @@
       "question": "What gives you your powers?",
       "options": [
         "Esoteric technology, implanted in your cortex",
-        "a gut feeling too real for comfort",
-        "a conversation you once had with a long-dead monolith."
+        "A gut feeling too real for comfort",
+        "A conversation you once had with a long-dead monolith."
       ]
     }, {
       "question": "What are your nightmares about?",
