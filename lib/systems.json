@@ -5,7 +5,7 @@
     "type": "System",
     "sp": 1,
     "source": "SSC",
-    "license": "WHITE WITCH",
+    "license": "White Witch",
     "license_level": 1,
     "actions": [
       {
@@ -36,7 +36,7 @@
       }
     ],
     "source": "SSC",
-    "license": "WHITE WITCH",
+    "license": "White Witch",
     "license_level": 2,
     "actions": [
       {
@@ -63,7 +63,7 @@
       }
     ],
     "source": "SSC",
-    "license": "WHITE WITCH",
+    "license": "White Witch",
     "license_level": 2,
     "actions": [
       {
@@ -91,7 +91,7 @@
     "type": "Deployable",
     "sp": 3,
     "source": "SSC",
-    "license": "WHITE WITCH",
+    "license": "White Witch",
     "license_level": 3,
     "deployables": [
       {
@@ -130,7 +130,7 @@
       }
     ],
     "source": "SSC",
-    "license": "EMPEROR",
+    "license": "Emperor",
     "license_level": 1,
     "actions": [
       {
@@ -154,7 +154,7 @@
       }
     ],
     "source": "SSC",
-    "license": "EMPEROR",
+    "license": "Emperor",
     "license_level": 2,
     "actions": [
       {
@@ -188,7 +188,7 @@
       }
     ],
     "source": "SSC",
-    "license": "EMPEROR",
+    "license": "Emperor",
     "license_level": 2,
     "actions": [
       {
@@ -212,7 +212,7 @@
       }
     ],
     "source": "SSC",
-    "license": "EMPEROR",
+    "license": "Emperor",
     "license_level": 3,
     "actions": [{
       "activation": "Quick",
@@ -244,7 +244,7 @@
       }
     ],
     "source": "SSC",
-    "license": "EMPEROR",
+    "license": "Emperor",
     "license_level": 3,
     "actions": [
       {
