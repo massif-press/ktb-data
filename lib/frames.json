@@ -164,7 +164,7 @@
   {
     "id": "mf_black_witch_alt_orchidea",
     "source": "SSC",
-    "variant": "BLACK WITCH",
+    "variant": "Black Witch",
     "name": "Orchis",
     "mechtype": ["Controller", "Defender"],
     "y_pos": 25,
@@ -239,7 +239,7 @@
   {
     "id": "mf_minotaur_alt_wraith",
     "source": "HORUS",
-    "variant": "MINOTAUR",
+    "variant": "Minotaur",
     "name": "Calendula",
     "mechtype": ["Controller"],
     "y_pos": 25,
