@@ -213,13 +213,6 @@
       "active_name": "Helion",
       "active_effect": "You hurl your shield with a mighty throw at a mech (allied or hostile) within Range 6, making a special Ram attack that cannot miss and knocks the target 3 spaces back instead of 1. This can cause characters to collide with obstructions as normal. This action is <b>Efficient</b>, and refunds 1 Core Power at the end of any scene in which it’s used.",
       "activation": "Quick",
-      "active_actions": [
-        {
-          "name": "Helion",
-          "activation": "Quick",
-          "detail": "The Orchis hurls its shield with a mighty throw at a mech (allied or hostile) within Range 6, making a special Ram attack that cannot miss and knocks the target 3 spaces back instead of 1. This can cause characters to collide with obstructions as normal. This action is <b>Efficient</b>, and refunds 1 Core Power at the end of any scene in which it’s used."
-        }
-      ],
       "passive_name": "Hunting Eagle",
       "passive_effect": "1/round when the Orchis causes a character to collide with another obstacle or character, you can - in addition to any other effects - throw your mech's scuta shield at that character, dealing 3 kinetic damage and rendering them unable to take reactions until the end of their next turn. The shield then returns to you. This effect doesn’t take an action or reaction to activate.",
       "passive_actions": [
@@ -307,13 +300,6 @@
       "active_name": "Weighing of Inequitable Hearts",
       "active_effect": "One hostile character and one allied character both within Range 5 and line of sight to you or a void husk, become INTANGIBLE until the end of your next turn. Two characters must be chosen for this effect to occur. This ability is <b>Efficient</b> and will refund 1 Core Point at the end of any scene in which this ability was used.",
       "activation": "Quick",
-      "active_actions": [
-        {
-          "name": "Execration of the Names of the Unworthy Dead",
-          "activation": "Quick",
-          "detail": "One hostile character and one allied character both within Range 5 and line of sight to you or a void husk, become INTANGIBLE until the end of your next turn. Two characters must be chosen for this effect to occur. This ability is <b>Efficient</b> and will refund 1 Core Point at the end of any scene in which this ability was used."
-        }
-      ],
       "passive_name": "Execrate",
       "passive_effect": "Gain the Execrate Quick Tech action.",
       "passive_actions": [
