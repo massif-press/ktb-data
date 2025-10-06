@@ -7,15 +7,35 @@
     "ranks": [
       {
         "name": "Front Rank",
-        "description": "You count as adjacent when you are within Range 2 for the purposes of your effects on allied characters (from your traits, talents, systems, or weapons) that require adjacency to your mech."
+        "description": "You count as adjacent when you are within Range 2 for the purposes of your effects on allied characters (from your traits, talents, systems, or weapons) that require adjacency to your mech.",
+        "active_effects": [
+          {
+            "name": "Front Rank",
+            "detail": "You count as adjacent when you are within Range 2 for the purposes of your effects on allied characters (from your traits, talents, systems, or weapons) that require adjacency to your mech."
+          }
+        ]
       },
       {
         "name": "Greater Guardian",
-        "description": "Your mech gains the Guardian trait if it doesn’t already have it (adjacent allies can use your mech as hard cover). Guardian now additionally grants soft cover to all adjacent allies from all directions."
+        "description": "Your mech gains the Guardian trait if it doesn’t already have it (adjacent allies can use your mech as hard cover). Guardian now additionally grants soft cover to all adjacent allies from all directions.",
+        "active_effects": [
+          {
+            "name": "Greater Guardian",
+            "detail": "Your mech gains the Guardian trait if it doesn’t already have it (adjacent allies can use your mech as hard cover). Guardian now additionally grants soft cover to all adjacent allies from all directions."
+          }
+        ]
       },
       {
         "name": "Shield of the Legion",
-        "description": "1/round, when you reduce damage to an allied character, cancel an attack against them, or cause one to miss, you may deal 2 energy damage to the attacker and knock them Prone."
+        "description": "1/round, when you reduce damage to an allied character, cancel an attack against them, or cause one to miss, you may deal 2 energy damage to the attacker and knock them Prone.",
+        "actions": [
+          {
+            "name": "Shield of the Legion",
+            "activation": "Reaction",
+            "frequency": "1/round",
+            "detail": "When you reduce damage to an allied character, cancel an attack against them, or cause one to miss, you may deal 2 energy damage to the attacker and knock them Prone."
+          }
+        ]
       }
     ]
   },
@@ -28,15 +48,17 @@
       {
         "name": "Veni",
         "description": "You gain +1 Accuracy to melee attacks against Immobilized or Slowed targets.",
+        "active_effects": [
+          {
+            "name": "Veni",
+            "detail": "You gain +1 Accuracy to melee attacks against Immobilized or Slowed targets."
+          }
+        ],
         "synergies": [
           {
-            "locations": [
-              "weapon"
-            ],
+            "locations": ["weapon"],
             "detail": "Your melee attacks against Immobilized or Slowed characters gain +1 Accuracy.",
-            "weapon_types": [
-              "Melee"
-            ]
+            "weapon_types": ["Melee"]
           }
         ]
       },
@@ -48,13 +70,26 @@
             "name": "Valiant Charge",
             "activation": "Free",
             "frequency": "1/scene",
-            "detail": "You charge, moving up to twice your Speed and ignoring terrain penalties. You must move in a straight line and end your charge adjacent to a hostile character, and you cannot start your charge adjacent to any hostile characters. When you end your charge, any adjacent hostile characters are Slowed until the end of their next turn."
+            "detail": "You charge, moving up to twice your Speed and ignoring terrain penalties. You must move in a straight line and end your charge adjacent to a hostile character, and you cannot start your charge adjacent to any hostile characters. When you end your charge, any adjacent hostile characters are Slowed until the end of their next turn.",
+            "add_status": [
+              {
+                "id": "slowed",
+                "duration": "end_next_turn_target",
+                "aoe": "adjacent"
+              }
+            ]
           }
         ]
       },
       {
         "name": "Vici",
-        "description": "If you start your Valiant Charge adjacent to any allied characters, they may immediately Boost as a reaction after your charge resolves."
+        "description": "If you start your Valiant Charge adjacent to any allied characters, they may immediately Boost as a reaction after your charge resolves.",
+        "active_effects": [
+          {
+            "name": "Vici",
+            "detail": "If you start your Valiant Charge adjacent to any allied characters, they may immediately Boost as a reaction after your charge resolves."
+          }
+        ]
       }
     ]
   }

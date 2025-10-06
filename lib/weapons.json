@@ -36,7 +36,6 @@
     ],
     "description": "“To say we can pull this needle from ‘thin air’ is the best-fit phrase, but it’s not accurate. Not entirely. There’s no such thing as thin air, not in the way one means it when they use that phrase. ‘Agreeable atomic space’ – that’s what ‘thin air’ really is. A place where one could – if one could – coalesce utility from useless particulate mass with a thought. With a snap of our finger. Here, watch this –”",
     "data_type": "weapon",
-    "aptitude": {},
     "license_id": "mf_white_witch"
   },
   {
@@ -154,7 +153,6 @@
       }
     ],
     "data_type": "weapon",
-    "aptitude": {},
     "license_id": "mf_white_witch"
   },
   {
@@ -186,7 +184,6 @@
       },
       {
         "name": "Target Acquired",
-        "on_hit": "",
         "damage": [
           {
             "type": "Energy",
@@ -215,7 +212,6 @@
     "license_level": 1,
     "description": "“But they denied Him. So their Lord brought down upon them destruction for their sin, and did not fear retribution, for He was the LORD, and above reproach. Put out your eye if you think otherwise.”<br>— Witnessed from the Cyrus 2.14 ferromemetic",
     "data_type": "weapon",
-    "aptitude": {},
     "license_id": "mf_emperor"
   },
   {
@@ -241,7 +237,6 @@
       {
         "id": "tg_ap"
       }
-    ],
-    "license_id": ""
+    ]
   }
 ]

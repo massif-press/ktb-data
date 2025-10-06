@@ -10,12 +10,26 @@
     "actions": [
       {
         "activation": "Quick",
-        "detail": "You and one character within Range 3 and line of sight become Immobilized and cannot be moved in any way. For the duration, the target always considers you within range for melee attacks. On any subsequent turn, you can end this effect as a protocol, or your target can end it by successfully hitting you with a ranged or melee attack. This condition can’t be removed any other way."
+        "detail": "You and one character within Range 3 and line of sight become Immobilized and cannot be moved in any way. For the duration, the target always considers you within range for melee attacks. On any subsequent turn, you can end this effect as a protocol, or your target can end it by successfully hitting you with a ranged or melee attack. This condition can’t be removed any other way.",
+        "add_status": [
+          {
+            "id": "immobilized",
+            "target": "self"
+          },
+          {
+            "id": "immobilized"
+          }
+        ],
+        "range": [
+          {
+            "type": "range",
+            "val": 3
+          }
+        ]
       }
     ],
     "description": "“We call it ‘demand-compliance tethering’. Though, that makes it sound as if they have a choice to resist.”",
     "data_type": "system",
-    "aptitude": {},
     "license_id": "mf_white_witch"
   },
   {
@@ -41,12 +55,24 @@
     "actions": [
       {
         "activation": "Quick",
-        "detail": "You project a shield of resonant ferrofluid over an allied character within Range 5. They gain Overshield equal to 4 + GRIT, but any damage dealt to this Overshield before reductions of any kind also deals equivalent kinetic damage to you as if the attacker had also damaged you, no matter how far away you are. This damage does not inherit tags or effects."
+        "detail": "You project a shield of resonant ferrofluid over an allied character within Range 5. They gain Overshield equal to 4 + GRIT, but any damage dealt to this Overshield before reductions of any kind also deals equivalent kinetic damage to you as if the attacker had also damaged you, no matter how far away you are. This damage does not inherit tags or effects.",
+        "range": [
+          {
+            "type": "range",
+            "val": 5
+          }
+        ],
+        "add_other": [
+          {
+            "id": "overshield",
+            "target": "ally",
+            "val": "4 + {grit}"
+          }
+        ]
       }
     ],
     "description": "“Soon enough we realized that shaping weapons from molecules and particles wasn’t enough to justify the conical mag as a system worth platforming. We needed to find a way to make it … more. More visual, tactile, concrete, imposing, thrilling – we needed to sell the next step in realspace control! So with some tuning and, regrettably, input from Visual, we figured out how to define the White Witch: as the most terrifying, alien thing you’ve ever fucking seen.”",
     "data_type": "system",
-    "aptitude": {},
     "license_id": "mf_white_witch"
   },
   {
@@ -77,12 +103,17 @@
         "frequency": "1/round",
         "init": "This system must be primed as a quick action.",
         "trigger": "An allied character within Range 5 and line of sight is targeted by an action that deals kinetic or explosive damage.",
-        "detail": "You become the target of the action instead. If the action was an area of effect, such as a line, cone, blast, etc, the attacker must now position it so it targets you, or as close as possible, which could change its targets. This transfer takes place even if the original could not have hit you (i.e., it was a melee attack)."
+        "detail": "You become the target of the action instead. If the action was an area of effect, such as a line, cone, blast, etc, the attacker must now position it so it targets you, or as close as possible, which could change its targets. This transfer takes place even if the original could not have hit you (i.e., it was a melee attack).",
+        "range": [
+          {
+            "type": "range",
+            "val": 5
+          }
+        ]
       }
     ],
     "description": "“Manipulating the world around the platform doesn’t end at rearranging the natural/built environment. This was the line that many on the team were afraid to cross, the question we had all asked ourselves once we bracketed the platform: what happens when we apply it to a person? What does existence mean when it can be ended with a thought?”",
     "data_type": "system",
-    "aptitude": {},
     "license_id": "mf_white_witch"
   },
   {
@@ -102,12 +133,19 @@
         "size": 2,
         "hp": 20,
         "evasion": 5,
-        "detail": "You spray a Size 2 surge of liquid metal in a free adjacent space, where it rapidly hardens into wicked spines. It doesn’t provide obstruction initially, but at the beginning of your next turn, it becomes a solid object (20 HP) that can be used for hard cover. The first time in a round any character would move into its space after the barrier hardens, that character takes 1d6 AP kinetic damage. You can only have one barrier deployed at a time; if a new one is deployed, the first one dissolves."
+        "detail": "You spray a Size 2 surge of liquid metal in a free adjacent space, where it rapidly hardens into wicked spines. It doesn’t provide obstruction initially, but at the beginning of your next turn, it becomes a solid object (20 HP) that can be used for hard cover. The first time in a round any character would move into its space after the barrier hardens, that character takes 1d6 AP kinetic damage. You can only have one barrier deployed at a time; if a new one is deployed, the first one dissolves.",
+        "damage": [
+          {
+            "type": "kinetic",
+            "val": "1d6",
+            "ap": true
+          }
+        ]
       }
     ],
     "description": "“Again and again the meatheads over at Visual asked us to ‘help them sell’ the platform. What else could we do? We handed them a power that gods of death and war had coveted since Cain cracked a rock over Abel’s head, and they told us, ‘if we can’t see it, we can’t sell it.’ So we mucked around and made another diadematic little wonder for them, the F-Barrier. It’s brilliant. Of course it is. We’re Exotic Materials, brilliance is easy.”",
     "data_type": "system",
-    "aptitude": {},
+
     "license_id": "mf_white_witch"
   },
   {
@@ -135,12 +173,34 @@
     "actions": [
       {
         "activation": "Quick Tech",
-        "detail": "A mech character within Sensors and line of sight gains Overshield 1. When this Overshield is lost for any reason, that character releases a Burst 2 electric pulse. All hostile characters in the affected area (including the original character, if hostile), take 2 AP energy damage and must succeed on an Engineering save or become Impaired until the end of their next turn."
+        "detail": "A mech character within Sensors and line of sight gains Overshield 1. When this Overshield is lost for any reason, that character releases a Burst 2 electric pulse. All hostile characters in the affected area (including the original character, if hostile), take 2 AP energy damage and must succeed on an Engineering save or become Impaired until the end of their next turn.",
+        "add_other": [
+          {
+            "id": "overshield",
+            "target": "ally",
+            "val": 1
+          }
+        ],
+        "damage": [
+          {
+            "type": "energy",
+            "val": 2,
+            "ap": true,
+            "aoe": "burst 2"
+          }
+        ],
+        "add_status": [
+          {
+            "id": "impaired",
+            "duration": "end_next_turn_target",
+            "save": true,
+            "save_stat": "engineering"
+          }
+        ]
       }
     ],
     "description": "“Our first door in was not, as we thought, from the subject’s neural mapping, but from an image of one of the igneomemetic samples returned by Perfect Execution during their deployment – Darius 1.11: The Golden Fulcrum. With it, we were able to crack the gestalt and begin to translate [Witness]; finding our way into the subject followed shortly thereafter.”",
     "data_type": "system",
-    "aptitude": {},
     "license_id": "mf_emperor"
   },
   {
@@ -159,12 +219,39 @@
     "actions": [
       {
         "activation": "Quick Tech",
-        "detail": "An allied mech character within Sensors gains a Disruptive Charge until the start of your next turn. When a hostile character enters a space within Range 3 of the target, the Disruptive Charge sparks to that character and then dissipates. The character struck by the spark takes 2 AP energy damage and must succeed on an Engineering save or be knocked back 2 spaces, knocked Prone, and Shredded until the end of their next turn.<br>Characters that start their turns within Range 3 of the target are unaffected until they move outside of that area and re - enter it."
+        "detail": "An allied mech character within Sensors gains a Disruptive Charge until the start of your next turn. When a hostile character enters a space within Range 3 of the target, the Disruptive Charge sparks to that character and then dissipates. The character struck by the spark takes 2 AP energy damage and must succeed on an Engineering save or be knocked back 2 spaces, knocked Prone, and Shredded until the end of their next turn.<br>Characters that start their turns within Range 3 of the target are unaffected until they move outside of that area and re - enter it.",
+        "range": [
+          {
+            "type": "range",
+            "val": 3
+          }
+        ],
+        "damage": [
+          {
+            "type": "energy",
+            "val": 2,
+            "ap": true
+          }
+        ],
+        "add_status": [
+          {
+            "id": "prone",
+            "duration": "end_next_turn_target",
+            "save": true,
+            "save_stat": "engineering"
+          },
+          {
+            "id": "shredded",
+            "duration": "end_next_turn_target",
+            "save": true,
+            "save_stat": "engineering"
+          }
+        ],
+        "save": "engineering"
       }
     ],
     "description": "Darius was the door in; Cyrus was the map. Navigation through the subject’s parasubjective topography was proven on paper. Using a particularized human-nonhuman ontologic bridge, EXMAT was able to demonstrate gestalt manifestation in test pilots; with help, we can do what they do — and do it better.<br>The walls between us and what comes next fall down. The work continues.",
     "data_type": "system",
-    "aptitude": {},
     "license_id": "mf_emperor"
   },
   {
@@ -193,12 +280,24 @@
     "actions": [
       {
         "activation": "Quick Tech",
-        "detail": "An allied mech character within Sensors and line of sight gains Overshield equal to 4 + GRIT. While they have this Overshield, they have Resistance to heat inflicted by other characters. If they lose this Overshield for any reason, they clear all heat."
+        "detail": "An allied mech character within Sensors and line of sight gains Overshield equal to 4 + GRIT. While they have this Overshield, they have Resistance to heat inflicted by other characters. If they lose this Overshield for any reason, they clear all heat.",
+        "add_other": [
+          {
+            "id": "overshield",
+            "target": "ally",
+            "val": "4 + {grit}"
+          }
+        ],
+        "add_resist": [
+          {
+            "type": "heat",
+            "target": "ally"
+          }
+        ]
       }
     ],
     "description": "“Be recorded in my book of Kings; live into forever and beyond.”<br>— translated gestalt from the Cyrus Omega ferromemetic, no pre-contact text associated; likely a subject-original imperative/corrective impulse.",
     "data_type": "system",
-    "aptitude": {},
     "license_id": "mf_emperor"
   },
   {
@@ -214,13 +313,22 @@
     "source": "SSC",
     "license": "Emperor",
     "license_level": 3,
-    "actions": [{
-      "activation": "Quick",
-      "detail": "You create a Blast 2 energy field in a space within Sensors and line of sight. The first time each turn any hostile character in this area is hit by a ranged or melee attack, they release a discharge of energy and all hostile characters at least partly in the area – including the original character – take 2 AP energy damage. This effect lasts for the rest of the scene or until you take this action again."
-    }],
+    "actions": [
+      {
+        "activation": "Quick",
+        "detail": "You create a Blast 2 energy field in a space within Sensors and line of sight. The first time each turn any hostile character in this area is hit by a ranged or melee attack, they release a discharge of energy and all hostile characters at least partly in the area – including the original character – take 2 AP energy damage. This effect lasts for the rest of the scene or until you take this action again.",
+        "damage": [
+          {
+            "type": "energy",
+            "val": 2,
+            "ap": true,
+            "aoe": true
+          }
+        ]
+      }
+    ],
     "description": "“So where are you going? Is your travel not just a reminder to the heavens? Go where thou wilt.”<br>— Witnessed from the Darius 4.8 ferromemetic",
     "data_type": "system",
-    "aptitude": {},
     "license_id": "mf_emperor"
   },
   {
@@ -249,12 +357,26 @@
     "actions": [
       {
         "activation": "Quick Tech",
-        "detail": "An allied character within Sensors and line of sight gains Overshield equal to 4 + GRIT. While they have this Overshield, all their melee attacks gain AP, and the first time each turn that they either hit with a melee attack or take damage from a hostile character, they release a Burst 1 energy blast centered on them. All hostile characters in the affected area take 1 AP energy damage."
+        "detail": "An allied character within Sensors and line of sight gains Overshield equal to 4 + GRIT. While they have this Overshield, all their melee attacks gain AP, and the first time each turn that they either hit with a melee attack or take damage from a hostile character, they release a Burst 1 energy blast centered on them. All hostile characters in the affected area take 1 AP energy damage.",
+        "add_other": [
+          {
+            "id": "overshield",
+            "target": "ally",
+            "val": "4 + {grit}"
+          }
+        ],
+        "damage": [
+          {
+            "type": "energy",
+            "val": 1,
+            "ap": true,
+            "aoe": "burst 1"
+          }
+        ]
       }
     ],
     "description": "“AND IT WAS SO, that we saw His power, and burned under His glory, and wept, and no fortress could withstand our might.”<br>— Witnessed from the Darius 5.10 ferromemetic",
     "data_type": "system",
-    "aptitude": {},
     "license_id": "mf_emperor"
   }
 ]
