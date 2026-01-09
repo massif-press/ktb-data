@@ -136,7 +136,7 @@
         "detail": "You spray a Size 2 surge of liquid metal in a free adjacent space, where it rapidly hardens into wicked spines. It doesn’t provide obstruction initially, but at the beginning of your next turn, it becomes a solid object (20 HP) that can be used for hard cover. The first time in a round any character would move into its space after the barrier hardens, that character takes 1d6 AP kinetic damage. You can only have one barrier deployed at a time; if a new one is deployed, the first one dissolves.",
         "damage": [
           {
-            "type": "kinetic",
+            "type": "Kinetic",
             "val": "1d6",
             "ap": true
           }
@@ -183,7 +183,7 @@
         ],
         "damage": [
           {
-            "type": "energy",
+            "type": "Energy",
             "val": 2,
             "ap": true,
             "aoe": "burst 2"
@@ -193,8 +193,7 @@
           {
             "id": "impaired",
             "duration": "end_next_turn_target",
-            "save": true,
-            "save_stat": "engineering"
+            "save": "engineering"
           }
         ]
       }
@@ -228,7 +227,7 @@
         ],
         "damage": [
           {
-            "type": "energy",
+            "type": "Energy",
             "val": 2,
             "ap": true
           }
@@ -237,14 +236,12 @@
           {
             "id": "prone",
             "duration": "end_next_turn_target",
-            "save": true,
-            "save_stat": "engineering"
+            "save": "engineering"
           },
           {
             "id": "shredded",
             "duration": "end_next_turn_target",
-            "save": true,
-            "save_stat": "engineering"
+            "save": "engineering"
           }
         ],
         "save": "engineering"
@@ -290,7 +287,7 @@
         ],
         "add_resist": [
           {
-            "type": "heat",
+            "type": "Heat",
             "target": "ally"
           }
         ]
@@ -319,7 +316,7 @@
         "detail": "You create a Blast 2 energy field in a space within Sensors and line of sight. The first time each turn any hostile character in this area is hit by a ranged or melee attack, they release a discharge of energy and all hostile characters at least partly in the area – including the original character – take 2 AP energy damage. This effect lasts for the rest of the scene or until you take this action again.",
         "damage": [
           {
-            "type": "energy",
+            "type": "Energy",
             "val": 2,
             "ap": true,
             "aoe": true
@@ -367,7 +364,7 @@
         ],
         "damage": [
           {
-            "type": "energy",
+            "type": "Energy",
             "val": 1,
             "ap": true,
             "aoe": "burst 1"

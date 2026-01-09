@@ -31,8 +31,8 @@
         "active_effects": [
           {
             "name": "Rooted",
-            "detail": "While this mech is Immobilized, it has resistance to Kinetic damage and cannot be knocked back or knocked prone.",
-            "condition": "Mech is Immobilized",
+            "condition": "You are Immobilized",
+            "detail": "Gain resistance to Kinetic damage and cannot be knocked back or knocked prone.",
             "add_resist": [
               {
                 "resist": "kinetic"
@@ -61,7 +61,7 @@
         "active_effects": [
           {
             "name": "Harden",
-            "detail": "When the White Witch braces, it gains overshield equal to 4 + GRIT before it takes damage.",
+            "detail": "When you Brace, gain overshield equal to 4 + GRIT before you take damage.",
             "condition": "Bracing",
             "add_other": [
               {
@@ -85,12 +85,12 @@
         "active_effects": [
           {
             "name": "Fluid Burst",
-            "detail": "When an allied character in Range 2 of the White Witch takes damage from a hostile source, the White Witch can reduce the damage by 1 and deal 1 AP kinetic damage to itself.",
+            "detail": "When an allied character in Range 2 of you takes damage from a hostile source, you can reduce the damage by 1 and deal 1 AP kinetic damage to yourself.",
             "condition": "Ally in Range 2 takes damage from hostile source",
             "damage": [
               {
                 "target": "self",
-                "type": "kinetic",
+                "type": "Kinetic",
                 "val": 1,
                 "ap": true
               }
@@ -105,7 +105,7 @@
         "active_effects": [
           {
             "name": "Guardian",
-            "detail": "Adjacent allied characters can use this mech as hard cover."
+            "detail": "Adjacent allied characters can use you as hard cover."
           }
         ]
       }
@@ -122,7 +122,7 @@
           "condition": "Your armor increases from Ferroreactive Armor",
           "damage": [
             {
-              "type": "kinetic",
+              "type": "Kinetic",
               "val": 1,
               "ap": true,
               "aoe": "burst 1"
@@ -137,7 +137,7 @@
           "condition": "Your armor increases from Ferroreactive Armor would exceed 12",
           "damage": [
             {
-              "type": "kinetic",
+              "type": "Kinetic",
               "val": 1,
               "ap": true,
               "aoe": "burst 2"
@@ -222,8 +222,8 @@
         "active_effects": [
           {
             "name": "Storm Shield",
-            "detail": "At the start of any scene, the Emperor gains OVERSHIELD equal to 6+GRIT. This OVERSHIELD refreshes any time the Emperor takes structure damage",
-            "condition": "At the start of scene or when taking structure damage",
+            "condition": "At the start of any scene or when taking structure damage",
+            "detail": "You gain OVERSHIELD equal to 6 + GRIT. This OVERSHIELD refreshes any time you takes structure damage",
             "add_other": [
               {
                 "type": "overshield",
@@ -240,11 +240,12 @@
         "active_effects": [
           {
             "name": "Imperial Vestment",
-            "detail": "Whenever the Emperor grants OVERSHIELD to another character, it gains the same amount of OVERSHIELD.",
-            "condition": "Emperor grants OVERSHIELD to another character",
+            "condition": "You grant OVERSHIELD to another character",
+            "detail": "Gain the same amount of OVERSHIELD.",
             "add_other": [
               {
                 "type": "overshield",
+                "val": 1,
                 "target": "self"
               }
             ]
@@ -257,7 +258,7 @@
         "actions": [
           {
             "name": "Sovereign Presence",
-            "detail": "1/round, when the Emperor targets a character with an attack, it can condemn that character, forcing them to make an ENGINEERING save. On a failure, the target takes +1 damage any time they take damage until the start of the Emperor’s next turn.",
+            "detail": "1/round, when you target a character with an attack, you can condemn that character, forcing them to make an ENGINEERING save. On a failure, the target takes +1 damage any time they take damage until the start of your next turn.",
             "frequency": "1/round",
             "save": "engineering"
           }
@@ -337,7 +338,7 @@
         "active_effects": [
           {
             "name": "Perfect Parry",
-            "detail": "The Orchis and all adjacent allied characters have IMMUNITY to all damage and effects from missed attacks."
+            "detail": "You and all adjacent allied characters have IMMUNITY to all damage and effects from missed attacks."
           }
         ]
       },
@@ -347,7 +348,7 @@
         "active_effects": [
           {
             "name": "Guardian",
-            "detail": "Adjacent allied characters can use the Orchis for hard cover."
+            "detail": "Adjacent allied characters can use you for hard cover."
           }
         ]
       },
@@ -357,7 +358,7 @@
         "active_effects": [
           {
             "name": "Royal Guard",
-            "detail": "When an allied mech adjacent to the Orchis moves, the Orchis can also move with that character as long as it doesn’t break adjacency, mirroring that character’s movement. The Orchis is still affected by obstructions and, between its turns, can only move a total number of spaces with this ability equal to its SPEED + 1. This effect doesn’t take a reaction, and doesn’t provoke reactions or obey engagement."
+            "detail": "When an allied mech adjacent to you moves, you can also move with that character as long as you don’t break adjacency, mirroring that character’s movement. You are still affected by obstructions and, between your turns, can only move a total number of spaces with this ability equal to your SPEED + 1. This effect doesn’t take a reaction, and doesn’t provoke reactions or obey engagement."
           }
         ]
       }
@@ -387,14 +388,14 @@
           "name": "Hunting Eagle",
           "activation": "Free",
           "frequency": "1/round",
-          "detail": "1/round when the Orchis causes a character to collide with another obstacle or character, you can - in addition to any other effects - throw your mech's scuta shield at that character, dealing 3 kinetic damage and rendering them unable to take reactions until the end of their next turn. The shield then returns to you. This effect doesn’t take an action or reaction to activate.",
+          "detail": "1/round when you cause a character to collide with another obstacle or character, you can - in addition to any other effects - throw your mech's scuta shield at that character, dealing 3 kinetic damage and rendering them unable to take reactions until the end of their next turn. The shield then returns to you. This effect doesn’t take an action or reaction to activate.",
           "damage": [
             {
-              "type": "kinetic",
+              "type": "Kinetic",
               "val": 3
             }
           ],
-          "add_special_status": [
+          "add_special": [
             {
               "attribute": "Cannot take Reactions (Hunting Eagle)",
               "duration": "next_turn_end_target"
@@ -440,7 +441,7 @@
         "active_effects": [
           {
             "name": "Sculptor of Fate",
-            "detail": "1/round, when the Calendula hits a character with a tech attack, it can create a void husk in a free space within RANGE 3 of its target. Void husks are INTANGIBLE objects that don’t cause obstruction. The husk is the same SIZE as its target, has IMMUNITY to all damage and effects, and emits a BURST 2 aura while active that affects both Intangible and tangible characters. Hostile characters are SLOWED while they are at least partly in the area. The Calendula can create any number of husks, all of which disintegrate at the end of the scene.",
+            "detail": "You can create a void husk in a free space within RANGE 3 of its target. Void husks are INTANGIBLE objects that don’t cause obstruction. The husk is the same SIZE as its target, has IMMUNITY to all damage and effects, and emits a BURST 2 aura while active that affects both Intangible and tangible characters. Hostile characters are SLOWED while they are at least partly in the area. You can create any number of husks, all of which disintegrate at the end of the scene.",
             "condition": "Calendula hits a character with a tech attack",
             "frequency": "1/round"
           }
@@ -450,10 +451,6 @@
             "name": "Void Husk",
             "type": "Void Husk",
             "activation": "Free",
-            "instances": 1,
-            "evasion": "",
-            "edef": "",
-            "hp": "",
             "detail": "The <b>void husk</b> is an <b>intangible</b> object that doesn’t cause obstruction. The husk is the same size as its target, immune to all damage and effects, and emits a Burst 2 aura while active that affects both Intangible and tangible characters. Hostile characters are SLOWED while they are at least partly in the area."
           }
         ]
@@ -487,7 +484,7 @@
           {
             "name": "Grammaton Mantle",
             "activation": "Protocol",
-            "detail": "As a protocol, the Calendula can become INTANGIBLE until the start of its next turn.",
+            "detail": "As a protocol, you can become INTANGIBLE until the start of your next turn.",
             "add_status": [
               {
                 "id": "intangible",

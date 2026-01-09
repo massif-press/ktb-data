@@ -25,7 +25,16 @@
     "source": "SSC",
     "license": "White Witch",
     "license_level": 1,
-    "on_hit": "1/round, you may force a character hit by this weapon to make a Hull save. On a failure, both you and your target are Immobilized and cannot be moved in any way. For the duration, the target always considers you within range for melee attacks. On any subsequent turn, you can end this effect as a protocol, knocking your target 4 spaces in any direction, or your target can end it by successfully hitting you with a ranged or melee attack. This condition can’t be removed any other way.",
+    "on_hit": {
+      "detail": "1/round, you may force a character hit by this weapon to make a Hull save. On a failure, both you and your target are Immobilized and cannot be moved in any way. For the duration, the target always considers you within range for melee attacks. On any subsequent turn, you can end this effect as a protocol, knocking your target 4 spaces in any direction, or your target can end it by successfully hitting you with a ranged or melee attack. This condition can’t be removed any other way.",
+      "save": "hull",
+      "add_special": [
+        {
+          "attribute": "Ferrofluid Lance Immobilization",
+          "detail": "Both you and the attacker are Immobilized and cannot be moved in any way. For the duration, the target always considers you within range for melee attacks. They can end this effect by successfully hitting you with a ranged or melee attack or as a protocol on any subsequent turn, knocking you away 4 spaces in any direction."
+        }
+      ]
+    },
     "actions": [
       {
         "name": "Ferrofluid Lance Fling",
