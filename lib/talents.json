@@ -17,22 +17,23 @@
       },
       {
         "name": "Greater Guardian",
-        "description": "Your mech gains the Guardian trait if it doesn't already have it (adjacent allies can use your mech as hard cover). Guardian now additionally grants soft cover to all adjacent allies from all directions.",
+        "description": "Your mech gains the Guardian trait if it doesn’t already have it (adjacent allies can use your mech as hard cover). Guardian now additionally grants soft cover to all adjacent allies from all directions.",
         "active_effects": [
           {
             "name": "Greater Guardian",
-            "detail": "Your mech gains the Guardian trait if it doesn't already have it (adjacent allies can use your mech as hard cover). Guardian now additionally grants soft cover to all adjacent allies from all directions."
+            "detail": "Your mech gains the Guardian trait if it doesn’t already have it (adjacent allies can use your mech as hard cover). Guardian now additionally grants soft cover to all adjacent allies from all directions."
           }
         ]
       },
       {
         "name": "Shield of the Legion",
         "description": "1/round, when you reduce damage to an allied character, cancel an attack against them, or cause one to miss, you may deal 2 energy damage to the attacker and knock them Prone.",
-        "active_effects": [
+        "actions": [
           {
             "name": "Shield of the Legion",
-            "detail": "1/round, when you reduce damage to an allied character, cancel an attack against them, or cause one to miss, you may deal 2 energy damage to the attacker and knock them Prone.",
-            "frequency": "1/round"
+            "activation": "Reaction",
+            "frequency": "1/round",
+            "detail": "When you reduce damage to an allied character, cancel an attack against them, or cause one to miss, you may deal 2 energy damage to the attacker and knock them Prone."
           }
         ]
       }
@@ -47,6 +48,12 @@
       {
         "name": "Veni",
         "description": "You gain +1 Accuracy to melee attacks against Immobilized or Slowed targets.",
+        "active_effects": [
+          {
+            "name": "Veni",
+            "detail": "You gain +1 Accuracy to melee attacks against Immobilized or Slowed targets."
+          }
+        ],
         "synergies": [
           {
             "locations": ["weapon"],
@@ -63,7 +70,14 @@
             "name": "Valiant Charge",
             "activation": "Free",
             "frequency": "1/scene",
-            "detail": "You charge, moving up to twice your Speed and ignoring terrain penalties. You must move in a straight line and end your charge adjacent to a hostile character, and you cannot start your charge adjacent to any hostile characters. When you end your charge, any adjacent hostile characters are Slowed until the end of their next turn."
+            "detail": "You charge, moving up to twice your Speed and ignoring terrain penalties. You must move in a straight line and end your charge adjacent to a hostile character, and you cannot start your charge adjacent to any hostile characters. When you end your charge, any adjacent hostile characters are Slowed until the end of their next turn.",
+            "add_status": [
+              {
+                "id": "slowed",
+                "duration": "end_next_turn_target",
+                "aoe": "adjacent"
+              }
+            ]
           }
         ]
       },
