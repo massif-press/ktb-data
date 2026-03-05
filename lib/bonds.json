@@ -69,7 +69,7 @@
       },
       {
         "name": "Exuent",
-        "description": "When you and your allies need to escape a bad situation right away, name your escape route and what you&rsquo;re taking with you. There&rsquo;s no roll required, and you always escape, but the GM chooses one:&nbsp;<ul> <li>You leave something behind (a weapon, a friend, evidence).&nbsp;</li> <li>You end up somewhere perilous or uncomfortable (a garbage chute, a cliff side, a seedy bar).&nbsp;</li> <li>You pick something up on your way out (a hanger-on, pursuers, STRESS).&nbsp;</li> <li>You can back out when you learn the cost and name another escape route (the GM might answer differently depending on how you phrase things).</li> </ul>"
+        "description": "When you and your allies need to escape a bad situation right away, name your escape route and what you’re taking with you. There’s no roll required, and you always escape, but the GM chooses one: <ul> <li>You leave something behind (a weapon, a friend, evidence). </li> <li>You end up somewhere perilous or uncomfortable (a garbage chute, a cliff side, a seedy bar). </li> <li>You pick something up on your way out (a hanger-on, pursuers, STRESS). </li> <li>You can back out when you learn the cost and name another escape route (the GM might answer differently depending on how you phrase things).</li> </ul>"
       },
       {
         "name": "Quickfingers",
@@ -148,11 +148,11 @@
       },
       {
         "name": "The Wall",
-        "description": "If you stand in defense of another person, they cannot take Stress while you are still conscious and you remain within arm’s reach. Instead, you take Stress each time they would take stress. You can’t take any action or concentrate on anything else while defending someone."
+        "description": "If you stand in defense of another person, they cannot take Stress while you are still conscious and you remain within arm’s reach. Instead, you take Stress each time they would take stress +1 Accuracy. You can’t take any action or concentrate on anything else while defending someone."
       },
       {
         "name": "Absolute Meat",
-        "description": "If you concentrate and grit your teeth, your personal strength verges on superhuman. You can take 2 Stress and roll a skill check to do one of the following:<ul><li>Bust through a wall, door, or floor, even reinforced, with nothing but your body</li><li>Lift, push, or drag a vehicle, mech, or other tremendous weight a short distance</li><li>Withstand forces far beyond the human body such as gale force winds, a mech’ s strength, or the pull of the void.</li></ul>Your action has increased effect if successful."
+        "description": "If you concentrate and grit your teeth, your personal strength verges on superhuman. You can take 2 Stress and roll a skill check to do one of the following:<ul><li>Bust through a wall, door, or floor, even reinforced, with nothing but your body</li><li>Lift, push, or drag a vehicle, mech, or other tremendous weight a short distance</li><li>Withstand forces far beyond the human body such as gale force winds, a mech’s strength, or the pull of the void.</li></ul>Your action has increased effect if successful."
       },
       {
         "name": "Force of Will",
@@ -161,7 +161,7 @@
       },
       {
         "name": "Half Light",
-        "description": "When you enter a charged or tense scene, you may ask the GM one of both of the following and receive a truthful answer:<ul><li>Who’s really in charge here?</li><li>What’s the biggest danger here?</li></ul>You or an ally of your choice gets + 1 Accuracy on their next skill check acting on the answer."
+        "description": "When you enter a charged or tense scene, you may ask the GM one of the following and receive a truthful answer:<ul><li>Who’s really in charge here?</li><li>What’s the biggest danger here?</li></ul>You or an ally of your choice gets +1 Accuracy on their next skill check acting on the answer."
       },
       {
         "name": "Strength Beyond Strength",
@@ -220,7 +220,7 @@
       {
         "name": "Momentum",
         "frequency": "2/session",
-        "description": "When you survey a situation, ask one of the following questions and get a truthful answer from the GM:<ul><li>How do I think I can get around this obstacle ?</li><li>What’ s the most direct way forward ?</li><li>Which way do I feel I should be moving ?</li></ul>You or an ally of your choice gets + 1 Accuracy on their next skill check acting on the answer."
+        "description": "When you survey a situation, ask one of the following questions and get a truthful answer from the GM:<ul><li>How do I think I can get around this obstacle?</li><li>What’s the most direct way forward?</li><li>Which way do I feel I should be moving?</li></ul>You or an ally of your choice gets +1 Accuracy on their next skill check acting on the answer."
       },
       {
         "name": "Saddleborn",
@@ -257,7 +257,7 @@
       {
         "name": "Feel the Air",
         "frequency": "1/session",
-        "description": "You can ask the GM up to three of the following about any location you arrive at and receive truthful answers:<ul><li>Who lives here or has passed through recently, and where can I find them ?</li><li>Who owns this place, or wants to, and where can I talk to them ?</li><li>What part of this place do people avoid, and why ?</li></ul>Gain + 1 Accuracy and increased effect on your next check acting on the answers.If you ask only one question, heal 1 Stress."
+        "description": "You can ask the GM up to three of the following about any location you arrive at and receive truthful answers:<ul><li>Who lives here or has passed through recently, and where can I find them?</li><li>Who owns this place, or wants to, and where can I talk to them?</li><li>What part of this place do people avoid, and why?</li></ul>Gain +1 Accuracy and increased effect on your next check acting on the answers.If you ask only one question, heal 1 Stress."
       },
       {
         "name": "Boon of the Traveler",
@@ -269,7 +269,7 @@
         "name": "Long Road Home",
         "frequency": "1/session",
         "prerequisite": "You may only gain this power If you’ve taken four powers from this bond, including the Veteran Power.",
-        "description": "Name a location you’ve been in the last three days. You can make your way back there without rolling. The GM will determine the following about the journey there:<ul><li>Was it a long or arduous journey?</li><li>Was the location dangerous, defended, or contested?</li><li>Were you being pursued, tracked, or hunted ?</li></ul>For every “yes” answer, take 2 Stress; however, at the beginning of the next scene, you and up to ten other willing people arrive safely there.Don’t worry about playing out the journey(just ‘cut’ to the next scene as you are arriving) and work backwards to figure out how you got there.",
+        "description": "Name a location you’ve been in the last three days. You can make your way back there without rolling. The GM will determine the following about the journey there:<ul><li>Was it a long or arduous journey?</li><li>Was the location dangerous, defended, or contested?</li><li>Were you being pursued, tracked, or hunted?</li></ul>For every “yes” answer, take 2 Stress; however, at the beginning of the next scene, you and up to ten other willing people arrive safely there.Don’t worry about playing out the journey(just ‘cut’ to the next scene as you are arriving) and work backwards to figure out how you got there.",
         "master": true
       }
     ]
@@ -299,20 +299,14 @@
       },
       {
         "question": "What do you speak with?",
-        "options": [
-          "Your voice.",
-          "Your hands.",
-          "Your eyes.",
-          "Your heart.",
-          "Your gut."
-        ]
+        "options": ["Your voice.", "Your hands.", "Your eyes.", "Your heart.", "Your gut."]
       }
     ],
     "powers": [
       {
         "name": "Inspiration",
         "frequency": "2/session",
-        "description": "When an ally takes can see or hear you while making a skill check, you can encourage them to give them +1 Accuracy or increased effect."
+        "description": "When an ally can see or hear you while making a skill check, you can encourage them to give them +1 Accuracy or increased effect."
       },
       {
         "name": "Secret History",
@@ -612,7 +606,7 @@
       {
         "name": "Joyluck Wind Thrower",
         "frequency": "1/session",
-        "description": "When you roll an unmodified 20 on the dice for a skill check, you may succeed in your task is and describe how you totally blow past everyone’s expectations (even your own). Your action ticks 5 segments on any relevant clocks, and you may give someone else present 1 XP."
+        "description": "When you roll an unmodified 20 on the dice for a skill check, you may succeed in your task and describe how you totally blow past everyone’s expectations (even your own). Your action ticks 5 segments on any relevant clocks, and you may give someone else present 1 XP."
       },
       {
         "name": "Inspired Heroism",

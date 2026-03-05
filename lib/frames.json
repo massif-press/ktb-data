@@ -6,7 +6,7 @@
     "mechtype": ["Defender"],
     "y_pos": 28,
     "license_level": 2,
-    "description": "<p>A proof of concept more than a line-production chassis, there have been select releases of White Witch licenses by Smith-Shimano&rsquo;s LUX-Exotic group to elite military enclaves, most notably to the upper cadres of the House of Moments.</p> <p>The White Witch builds on the platform established by the Black Witch; utilizing SSC&rsquo;s signature magtech weapons and equipment, it takes Black Witch and tunes it for hypersolipsistic focus, narrowing the effect cone to encompass only the White Witch and its pilot.</p> <p>The White Witch marks SSC&rsquo;s first foray into null-ordnance/environmental-manipulation chassis. When active, its entire chassis becomes a conduit for onboard base-compound magtech agitators to exploit its immediate environment, drawing atomic components out of organic and inorganic objects and surfaces to enhance its built-in defensive systems. The White Witch reorganizes these molecular draws using its chassis as substrate, quickly forming substantive defenses and weapons from &ldquo;thin air&rdquo;.</p> <p>This process has understandably traumatic effects on organic and inorganic materials inside the immediate effect cone.&nbsp;</p>",
+    "description": "<p>A proof of concept more than a line-production chassis, there have been select releases of White Witch licenses by Smith-Shimano’s LUX-Exotic group to elite military enclaves, most notably to the upper cadres of the House of Moments.</p> <p>The White Witch builds on the platform established by the Black Witch; utilizing SSC’s signature magtech weapons and equipment, it takes Black Witch and tunes it for hypersolipsistic focus, narrowing the effect cone to encompass only the White Witch and its pilot.</p> <p>The White Witch marks SSC’s first foray into null-ordnance/environmental-manipulation chassis. When active, its entire chassis becomes a conduit for onboard base-compound magtech agitators to exploit its immediate environment, drawing atomic components out of organic and inorganic objects and surfaces to enhance its built-in defensive systems. The White Witch reorganizes these molecular draws using its chassis as substrate, quickly forming substantive defenses and weapons from “thin air”.</p> <p>This process has understandably traumatic effects on organic and inorganic materials inside the immediate effect cone. </p>",
     "mounts": ["Flex", "Heavy"],
     "stats": {
       "size": 2,
@@ -27,7 +27,20 @@
     "traits": [
       {
         "name": "Rooted",
-        "description": "While this mech is Immobilized, it has resistance to Kinetic damage and cannot be knocked back or knocked prone. It can choose to become immobilized until the end of its next turn as a protocol."
+        "description": "While this mech is Immobilized, it has resistance to Kinetic damage and cannot be knocked back or knocked prone. It can choose to become immobilized until the end of its next turn as a protocol.",
+        "actions": [
+          {
+            "name": "Rooted",
+            "activation": "Protocol",
+            "detail": "The White Witch chooses to become Immobilized until the end of its next turn."
+          }
+        ],
+        "active_effects": [
+          {
+            "name": "Rooted",
+            "detail": "While this mech is Immobilized, it has resistance to Kinetic damage and cannot be knocked back or knocked prone."
+          }
+        ]
       },
       {
         "name": "Harden",
@@ -41,7 +54,13 @@
       },
       {
         "name": "Fluid Burst",
-        "description": "When an allied character in Range 2 of the White Witch takes damage from a hostile source, the White Witch can reduce the damage by 1 and deal 1 AP kinetic damage to itself."
+        "description": "When an allied character in Range 2 of the White Witch takes damage from a hostile source, the White Witch can reduce the damage by 1 and deal 1 AP kinetic damage to itself.",
+        "active_effects": [
+          {
+            "name": "Fluid Burst",
+            "detail": "When an allied character in Range 2 of the White Witch takes damage from a hostile source, the White Witch can reduce the damage by 1 and deal 1 AP kinetic damage to itself."
+          }
+        ]
       },
       {
         "name": "Guardian",
@@ -61,6 +80,15 @@
       ],
       "use": "Encounter",
       "activation": "Protocol",
+      "active_actions": [
+        {
+          "name": "Hyperactive mode",
+          "activation": "Protocol",
+          "detail": "For the rest of the scene, Ferroreactive Armor gives +2 Armor each time instead of +1, to a max of +12. Each time your armor increases in this way, your mech deals 1 AP kinetic damage to all characters in a Burst 1 area as it draws raw material from the environment. If your benefit from Ferroreactive Armor would increase past +12, it explodes instead, dealing 1 AP kinetic damage in a Burst 2 area around you. All characters within the affected area must succeed on a HULL save or be knocked PRONE, then IMMOBILIZED and SHREDDED until the end of their next turns. The benefit from Ferroreactive Armor resets to 0, although it continues to be active and this effect can occur multiple times in a scene.",
+          "save": "hull",
+          "add_status": [{ "id": "prone" }, { "id": "immobilized" }, { "id": "shredded" }]
+        }
+      ],
       "passive_name": "Ferroreactive Armor",
       "passive_effect": "Each time you take damage from yourself or a hostile source (even if that damage is reduced or ignored), gain +1 ARMOR for the rest of this scene after taking damage, up to a maximum of +6.",
       "passive_synergies": [
@@ -79,8 +107,7 @@
         }
       ]
     },
-    "data_type": "frame",
-    "aptitude": {},
+
     "image_url": "https://d2c79xe1p61csc.cloudfront.net/frames/whitewitch.png",
     "license_id": "mf_white_witch"
   },
@@ -91,7 +118,7 @@
     "mechtype": ["Support", "Artillery"],
     "y_pos": 21,
     "license_level": 2,
-    "description": "<p>&ldquo;In Exotic Materials we don&rsquo;t have problems: we have doors that are not yet open to us. A &lsquo;problem&rsquo; presents endless branching paths. Doors are binary. Open and shut. &lsquo;The tyranny of the problem lies in the impossible breadth of possibility.&rsquo; Smith said that. He went on to say that this is a useless framing for tinkerers and hobbyists whose ethics are defined by calcified, hand-wringing institutions. So! EXMAT is solutions-focused: there is no such thing as a problem, only a door, and the question: can we open it, or do we have to bash it down?</p> <p>Progress. Smith Shimano has always been about progress. Humanity has always been about progress. In service of progress, one must accept the necessity of teleological suspension.</p> <p>For the Emperor, after Hercynia, we had to bash the door down. Ugly process, but the riches beyond the door were more than worth it. Syncretic subjectivities, induced gestalt manifestation, H-NHP ontologic bridging, superpositional defensive lensing &ndash; look at what the battering ram gave us and tell me you&rsquo;d rather puzzle out a problem then bash down the door and grab all the gold.</p> <p>What else is there to say? Long live the Emperor, for in its creation did we find the method by which to fling open every locked door. Wondrous things are coming. I&rsquo;m glad that they&rsquo;ll be under our control.&rdquo;</p> <p>&ndash; Memo to personal records, Bala Shimano, CEO-1, Exotic Materials Group</p>",
+    "description": "<p>“In Exotic Materials we don’t have problems: we have doors that are not yet open to us. A ‘problem’ presents endless branching paths. Doors are binary. Open and shut. ‘The tyranny of the problem lies in the impossible breadth of possibility.’ Smith said that. He went on to say that this is a useless framing for tinkerers and hobbyists whose ethics are defined by calcified, hand-wringing institutions. So! EXMAT is solutions-focused: there is no such thing as a problem, only a door, and the question: can we open it, or do we have to bash it down?</p> <p>Progress. Smith Shimano has always been about progress. Humanity has always been about progress. In service of progress, one must accept the necessity of teleological suspension.</p> <p>For the Emperor, after Hercynia, we had to bash the door down. Ugly process, but the riches beyond the door were more than worth it. Syncretic subjectivities, induced gestalt manifestation, H-NHP ontologic bridging, superpositional defensive lensing – look at what the battering ram gave us and tell me you’d rather puzzle out a problem then bash down the door and grab all the gold.</p> <p>What else is there to say? Long live the Emperor, for in its creation did we find the method by which to fling open every locked door. Wondrous things are coming. I’m glad that they’ll be under our control.”</p> <p>– Memo to personal records, Bala Shimano, CEO-1, Exotic Materials Group</p>",
     "mounts": ["Main"],
     "stats": {
       "size": 1,
@@ -112,7 +139,7 @@
     "traits": [
       {
         "name": "Storm Shield",
-        "description": "The Emperor’s HP is not increased by its pilots GRIT. Instead, at the start of any scene, the Emperor gains OVERSHIELD equal to 6+GRIT. This OVERSHIELD refreshes any time the Emperor takes structure damage",
+        "description": "The Emperor’s HP is not increased by its pilot's GRIT. Instead, at the start of any scene, the Emperor gains OVERSHIELD equal to 6+GRIT. This OVERSHIELD refreshes any time the Emperor takes structure damage.",
         "bonuses": [
           {
             "id": "hp",
@@ -122,7 +149,7 @@
         "synergies": [
           {
             "locations": ["overshield"],
-            "detail": "The Emperor’s HP is not increased by its pilots GRIT. Instead, at the start of any scene, the Emperor gains OVERSHIELD equal to 6+GRIT. This OVERSHIELD refreshes any time the Emperor takes structure damage"
+            "detail": "The Emperor’s HP is not increased by its pilot's GRIT. Instead, at the start of any scene, the Emperor gains OVERSHIELD equal to 6+GRIT. This OVERSHIELD refreshes any time the Emperor takes structure damage"
           }
         ]
       },
@@ -144,20 +171,32 @@
             "locations": ["weapon", "active_effects"],
             "detail": "1/round, when the Emperor targets a character with an attack, it can condemn that character, forcing them to make an ENGINEERING save. On a failure, the target takes +1 damage any time they take damage until the start of the Emperor’s next turn."
           }
+        ],
+        "active_effects": [
+          {
+            "name": "Sovereign Presence",
+            "detail": "1/round, when the Emperor targets a character with an attack, it can condemn that character, forcing them to make an ENGINEERING save. On a failure, the target takes +1 damage any time they take damage until the start of the Emperor's next turn.",
+            "frequency": "1/round"
+          }
         ]
       }
     ],
     "core_system": {
       "name": "Darian Regalia",
-      "description": "",
       "active_name": "Xerxes Apex",
       "active_effect": "For the rest of this scene, any mech targeted by an attack using the Marathon Arc Bow releases a bolt of lightning after the attack resolves, striking a character of your choice within RANGE 3, which can be the character it originated from. This lightning bolt either deals 2 AP damage (no attack or save) or increases the target’s OVERSHIELD by +2. The same character can be struck by multiple bolts.",
       "activation": "Protocol",
       "use": "Encounter",
+      "active_actions": [
+        {
+          "name": "Xerxes Apex",
+          "activation": "Protocol",
+          "detail": "For the rest of this scene, any mech targeted by an attack using the Marathon Arc Bow releases a bolt of lightning after the attack resolves, striking a character of your choice within RANGE 3, which can be the character it originated from. This lightning bolt either deals 2 AP damage (no attack or save) or increases the target's OVERSHIELD by +2. The same character can be struck by multiple bolts."
+        }
+      ],
       "integrated": ["mw_emperor_integrated"]
     },
-    "data_type": "frame",
-    "aptitude": {},
+
     "image_url": "https://d2c79xe1p61csc.cloudfront.net/frames/emperor.png",
     "license_id": "mf_emperor"
   },
@@ -204,15 +243,22 @@
       },
       {
         "name": "Royal Guard",
-        "description": "When an allied mech adjacent to the Orchis moves, the Orchis can also move with that character as long as it doesn’t break adjacency, mirroring that character’s movement. The Orchis is still affected by obstructions and, between its turns, can only move a total number of spaces with this ability equal to its SPEED+1.This effect doesn’t take a reaction, and doesn’t provoke reactions or obey engagement."
+        "description": "When an allied mech adjacent to the Orchis moves, the Orchis can also move with that character as long as it doesn’t break adjacency, mirroring that character’s movement. The Orchis is still affected by obstructions and, between its turns, can only move a total number of spaces with this ability equal to its SPEED+1. This effect doesn’t take a reaction, and doesn’t provoke reactions or obey engagement."
       }
     ],
     "core_system": {
       "name": "Helion",
-      "description": "&ldquo;The man who took the reins of steel and became greater than man. The lowly one, the first, the greatest, the one who threw the sun at the face of his foes. IA! IA! Helion!&ldquo;",
+      "description": "“The man who took the reins of steel and became greater than man. The lowly one, the first, the greatest, the one who threw the sun at the face of his foes. IA! IA! Helion!“",
       "active_name": "Helion",
       "active_effect": "You hurl your shield with a mighty throw at a mech (allied or hostile) within Range 6, making a special Ram attack that cannot miss and knocks the target 3 spaces back instead of 1. This can cause characters to collide with obstructions as normal. This action is <b>Efficient</b>, and refunds 1 Core Power at the end of any scene in which it’s used.",
       "activation": "Quick",
+      "active_actions": [
+        {
+          "name": "Helion",
+          "activation": "Quick",
+          "detail": "You hurl your shield with a mighty throw at a mech (allied or hostile) within Range 6, making a special Ram attack that cannot miss and knocks the target 3 spaces back instead of 1. This can cause characters to collide with obstructions as normal. This action is <b>Efficient</b>, and refunds 1 Core Power at the end of any scene in which it's used."
+        }
+      ],
       "passive_name": "Hunting Eagle",
       "passive_effect": "1/round when the Orchis causes a character to collide with another obstacle or character, you can - in addition to any other effects - throw your mech's scuta shield at that character, dealing 3 kinetic damage and rendering them unable to take reactions until the end of their next turn. The shield then returns to you. This effect doesn’t take an action or reaction to activate.",
       "passive_actions": [
@@ -224,8 +270,7 @@
         }
       ]
     },
-    "data_type": "frame",
-    "aptitude": {},
+
     "image_url": "https://d2c79xe1p61csc.cloudfront.net/frames/orchis.png",
     "license_id": "mf_black_witch"
   },
@@ -271,16 +316,19 @@
             "type": "Void Husk",
             "activation": "Free",
             "instances": 1,
-            "evasion": "",
-            "edef": "",
-            "hp": "",
             "detail": "The <b>void husk</b> is an <b>intangible</b> object that doesn’t cause obstruction. The husk is the same size as its target, immune to all damage and effects, and emits a Burst 2 aura while active that affects both Intangible and tangible characters. Hostile characters are SLOWED while they are at least partly in the area."
           }
         ]
       },
       {
         "name": "Grammaton Law",
-        "description": "SLOWED hostile characters are also SHREDDED while within Range 3 of the Calendula."
+        "description": "SLOWED hostile characters are also SHREDDED while within Range 3 of the Calendula.",
+        "active_effects": [
+          {
+            "name": "Grammaton Law",
+            "detail": "SLOWED hostile characters are also SHREDDED while within Range 3 of the Calendula."
+          }
+        ]
       },
       {
         "name": "Grammaton Mantle",
@@ -296,10 +344,17 @@
     ],
     "core_system": {
       "name": "Execration of the Names of the Unworthy Dead",
-      "description": "&ldquo;I inscribe thy name, I threaten thee with the second death. I kill thy name, and this I kill thee again in the afterlife.&ldquo;",
+      "description": "“I inscribe thy name, I threaten thee with the second death. I kill thy name, and this I kill thee again in the afterlife.“",
       "active_name": "Weighing of Inequitable Hearts",
       "active_effect": "One hostile character and one allied character both within Range 5 and line of sight to you or a void husk, become INTANGIBLE until the end of your next turn. Two characters must be chosen for this effect to occur. This ability is <b>Efficient</b> and will refund 1 Core Point at the end of any scene in which this ability was used.",
       "activation": "Quick",
+      "active_actions": [
+        {
+          "name": "Weighing of Inequitable Hearts",
+          "activation": "Quick",
+          "detail": "One hostile character and one allied character both within Range 5 and line of sight to you or a void husk, become INTANGIBLE until the end of your next turn. Two characters must be chosen for this effect to occur. This ability is <b>Efficient</b> and will refund 1 Core Point at the end of any scene in which this ability was used."
+        }
+      ],
       "passive_name": "Execrate",
       "passive_effect": "Gain the Execrate Quick Tech action.",
       "passive_actions": [
@@ -311,8 +366,7 @@
         }
       ]
     },
-    "data_type": "frame",
-    "aptitude": {},
+
     "image_url": "https://d2c79xe1p61csc.cloudfront.net/frames/calendula.png",
     "license_id": "mf_minotaur"
   }
