@@ -149,15 +149,6 @@
       ],
       "use": "Encounter",
       "activation": "Protocol",
-      "active_actions": [
-        {
-          "name": "Hyperactive mode",
-          "activation": "Protocol",
-          "detail": "For the rest of the scene, Ferroreactive Armor gives +2 Armor each time instead of +1, to a max of +12. Each time your armor increases in this way, your mech deals 1 AP kinetic damage to all characters in a Burst 1 area as it draws raw material from the environment. If your benefit from Ferroreactive Armor would increase past +12, it explodes instead, dealing 1 AP kinetic damage in a Burst 2 area around you. All characters within the affected area must succeed on a HULL save or be knocked PRONE, then IMMOBILIZED and SHREDDED until the end of their next turns. The benefit from Ferroreactive Armor resets to 0, although it continues to be active and this effect can occur multiple times in a scene.",
-          "save": "hull",
-          "add_status": [{ "id": "prone" }, { "id": "immobilized" }, { "id": "shredded" }]
-        }
-      ],
       "passive_name": "Ferroreactive Armor",
       "passive_effect": "Each time you take damage from yourself or a hostile source (even if that damage is reduced or ignored), gain +1 ARMOR for the rest of this scene after taking damage, up to a maximum of +6.",
       "passive_active_effects": [
