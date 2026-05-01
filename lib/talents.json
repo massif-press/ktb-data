@@ -73,7 +73,7 @@
             "detail": "You charge, moving up to twice your Speed and ignoring terrain penalties. You must move in a straight line and end your charge adjacent to a hostile character, and you cannot start your charge adjacent to any hostile characters. When you end your charge, any adjacent hostile characters are Slowed until the end of their next turn.",
             "add_status": [
               {
-                "id": "slowed",
+                "id": "slow",
                 "duration": "end_next_turn_target",
                 "aoe": "adjacent"
               }

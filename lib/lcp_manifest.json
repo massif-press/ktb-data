@@ -3,7 +3,7 @@
   "author": "Massif Press",
   "description": "This setting expansion for Lancer features a deep dive into the Trade Baronies, one of the great cultures and member states of Union. This Content Pack includes four new mechs: The SSC White Witch, a resilient defender covered in a powerful reactive shell of ferrofluid. The SSC Emperor, a bow-wielding support, a dominant and regal mech focused on granting overshield to its allies. The RKF Orchis, a defender variant for the Black Witch, lord of the shield and ruthless justicar. The RKF Calendula, a variant for the Minotaur, a mech that manipulates shadowy dimensions to banish its foes and shift around its allies. This data also includes two new Talents (House Guard and Pankrati). Special thanks to by Eranziel and CYAN, who built and maintained the preview version of this LCP.",
   "item_prefix": "ktb",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "image_url": "https://img.itch.zone/aW1hZ2UvMTQ3ODA4Ni84NjIwMjI5LnBuZw==/347x500/dePzDG.png",
   "website": "https://massif-press.itch.io/field-guide-the-karrakin-trade-baronies",
   "version_history": [
@@ -11,6 +11,15 @@
       "version": "2.0.0",
       "date": "2026-03-18",
       "changes": ["Updated to v3."]
+    },
+    {
+      "version": "2.0.1",
+      "date": "2026-05-01",
+      "changes": [
+        "Added 'None' Action proxies to several v3-specific automations",
+        "Removed a number of deprecated item properties",
+        "Corrected an incorrect Slow condition ID in Vidi/Valiant Charge"
+      ]
     }
   ],
   "v3": true
